@@ -1,6 +1,7 @@
 ---
 layout: home
-title:  
+title: ""
+description: ""
 ---
 
 <div style="display:flex; align-items:center; margin-bottom:20px;">
