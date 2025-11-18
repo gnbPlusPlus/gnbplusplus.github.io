@@ -2,8 +2,10 @@
 layout: home
 ---
 
+<!-- Google fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,800;1,800&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
 
+<!-- Styling for page elements -->
 <style>
   body h1 {
     font-family: font-family: "Google Sans Code", monospace;
@@ -27,8 +29,9 @@ layout: home
   }
 </style>
 
+<!-- Welcome + intro blurb -->
 <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
-  <img src="/assets/images/GNBishop_headshot.JPG" style="width:210px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
+  <img src="/assets/images/GNBishop_headshot.JPG" style="width:208px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
@@ -36,10 +39,18 @@ layout: home
   </div>
 </div>
 
-<div>
+<!-- Same-page links to project showcases for quicker access -->
+<div class="nav">
+  <a href="#petAdoptApp" class="btn">Pet Adoption Website using React + Flask</a>
+  <a href="#gardeningApp" class="btn">UI/UX Design for Gardening Mobile App</a>
+</div>
+
+<!-- Pet Adoption App -->
+<div id="petAdoptApp">
   <h2>Pet Adoption Website using React + Flask</h2>
 </div>
 
-<div>
+<!-- Gardening App -->
+<div id="gardeningApp">
   <h2>UI/UX Design for Gardening Mobile App</h2>
 </div>
