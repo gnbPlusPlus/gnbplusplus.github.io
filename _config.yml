@@ -15,6 +15,11 @@ url: "https://gnbplusplus.github.io/gnbplusplus.github.io"
 breadcrumbs: true
 search: true
 
+# Header settings
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+
 # Info about me in sidebar
 author:
   name: "Noelle Bishop"
