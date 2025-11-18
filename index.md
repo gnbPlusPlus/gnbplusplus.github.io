@@ -1,7 +1,6 @@
 ---
 layout: home
-title: Welcome to the ePortfolio!
-author_profile: true
+title:  
 ---
 
 <div style="display:flex; align-items:center; margin-bottom:20px;">
