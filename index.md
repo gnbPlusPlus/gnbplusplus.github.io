@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <style>
-.wrapper > p {
+.wrapper {
   display: none;
 </style>
 
