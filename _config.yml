@@ -3,16 +3,3 @@ theme: minima
 title: "Noelle's ePortfolio"
 description: "My ePortfolio showcasing UI/UX and web development work"
 url: "https://gnbplusplus.github.io"
-
-# Sidebar "about"
-author:
-  name: "Noelle Bishop"
-  avatar: "/assets/images/GNBishop_headshot.JPG"
-  bio: "This ePortfolio exhibits my work in UI design, UX research, and web development."
-  links:
-    - label: "GitHub"
-      url: "https://github.com/gnbPlusPlus"
-    # - label: "LinkedIn"
-    #   url: "https://linkedin.com/in/your-link"
-
-markdown: kramdown
