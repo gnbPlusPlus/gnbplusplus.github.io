@@ -32,7 +32,7 @@ layout: home
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
-    <p>I graduate with a bachelor's degree in computer science in December 2025.</p>
+    <p>I graduate summa cum laude with a bachelor's degree in computer science in December 2025.</p>
   </div>
 </div>
 
