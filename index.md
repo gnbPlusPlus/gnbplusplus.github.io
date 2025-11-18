@@ -28,7 +28,7 @@ layout: home
 </style>
 
 <div style="display:flex; align-items:center; margin-bottom:20px;">
-  <img src="/assets/images/GNBishop_headshot.JPG" style="width:185px;border-radius:24px;border-color:white;margin-right:15px;">
+  <img src="/assets/images/GNBishop_headshot.JPG" style="width:185px;border-radius:24px;border-color:white;margin:15px 15px 0 0;">
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
