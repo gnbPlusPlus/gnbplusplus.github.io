@@ -1,1 +1,16 @@
-theme: jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Choose the Plum skin
+minimal_mistakes_skin: "plum"
+
+# Basic site info
+title: "My Site"
+description: "A Minimal Mistakes site using the Plum skin"
+url: "https://gnbplusplus.github.io/gnbplusplus.github.io"
+
+breadcrumbs: true
+search: true
