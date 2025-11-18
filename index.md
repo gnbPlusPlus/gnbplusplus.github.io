@@ -56,7 +56,7 @@ layout: home
 
 <!-- Same-page links to project showcases for quicker access -->
 <div class="nav">
-  <h3>Projects - Quick Navigation</h3>
+  <h2>Projects - Quick Navigation</h2>
   <ul>
     <li class="navLink"><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
     <br>
