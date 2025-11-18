@@ -53,8 +53,8 @@ layout: home
 <div class="nav">
   <h3>Projects - Quick Nav</h3>
   <ul>
-    <a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a>
-    <a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a>
+    <li><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
+    <li><a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a></li>
   </ul>
 </div>
 
