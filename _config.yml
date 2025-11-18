@@ -7,30 +7,3 @@ url: "https://gnbplusplus.github.io"
 
 breadcrumbs: true
 search: true
-
-# Header settings
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-
-# Info about me in sidebar
-author:
-  name: "Noelle Bishop"
-  avatar: "/assets/images/GNBishop_headshot.JPG"
-  bio: "This ePortfolio exhibits my work in UI/UX research & design and full-stack web development."
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/gnbPlusPlus"
-    #- label: "LinkedIn"
-    #  icon: "fab fa-linkedin"
-    #  url: "https://linkedin.com/in/url"
-    
-# Site navigation
-navigation:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
