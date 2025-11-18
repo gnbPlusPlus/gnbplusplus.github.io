@@ -17,7 +17,7 @@ search: true
 
 author:
   name: "Noelle Bishop"
-  avatar: "/assets/images/GNBishop_headshot.jpg"
+  avatar: "/assets/images/GNBishop_headshot.JPG"
   bio: "This ePortfolio exhibits my work in UI/UX research & design and full-stack web development."
   links:
     - label: "GitHub"
