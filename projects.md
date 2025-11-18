@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Projects"
+permalink: /projects/
 ---
 
 TODO: list major projects that I want to showcase
