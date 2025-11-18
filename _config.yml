@@ -14,3 +14,15 @@ url: "https://gnbplusplus.github.io/gnbplusplus.github.io"
 
 breadcrumbs: true
 search: true
+
+author:
+  name: "Noelle Bishop"
+  avatar: "/assets/images/me.jpg"
+  bio: "This ePortfolio exhibits my work in UI/UX research & design and full-stack web development."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/gnbPlusPlus"
+    #- label: "LinkedIn"
+    #  icon: "fab fa-linkedin"
+    #  url: "https://linkedin.com/in/url"
