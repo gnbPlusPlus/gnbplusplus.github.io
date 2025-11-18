@@ -28,10 +28,18 @@ layout: home
 </style>
 
 <div style="display:flex; align-items:center; margin-bottom:20px;">
-  <img src="/assets/images/GNBishop_headshot.JPG" style="width:200px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
+  <img src="/assets/images/GNBishop_headshot.JPG" style="width:220px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
     <p>I graduate with a bachelor's degree in computer science in December 2025.</p>
   </div>
+</div>
+
+<div>
+  <h2>Pet Adoption Website using React + Flask</h2>
+</div>
+
+<div>
+  <h2>UI/UX Design for Gardening Mobile App</h2>
 </div>
