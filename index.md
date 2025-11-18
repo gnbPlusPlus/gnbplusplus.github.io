@@ -14,7 +14,7 @@ layout: home
     font-style: italic;
   }
 
-  body h2 {
+  body h2, h3 {
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -26,6 +26,16 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+  }
+
+  .button {
+    font-family: "TASA Orbiter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color:pink;
+    border-radius: 8px;
+    border-color: white;
   }
 </style>
 
@@ -41,9 +51,11 @@ layout: home
 
 <!-- Same-page links to project showcases for quicker access -->
 <div class="nav">
-  <h3>Projects</h3>
-  <a href="#petAdoptApp" class="btn">Pet Adoption Website - React + Flask</a>
-  <a href="#gardeningApp" class="btn">UI/UX Design - Gardening Mobile App</a>
+  <h3>Projects - Quick Nav</h3>
+  <ul>
+    <a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a>
+    <a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a>
+  </ul>
 </div>
 
 <!-- Pet Adoption App -->
