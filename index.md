@@ -40,7 +40,7 @@ layout: home
   }
 
   .linkText {
-    color: #27BBF5;
+    color: #1C85AD;
   }
 </style>
 
