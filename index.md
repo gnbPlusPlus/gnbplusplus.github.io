@@ -41,8 +41,9 @@ layout: home
 
 <!-- Same-page links to project showcases for quicker access -->
 <div class="nav">
-  <a href="#petAdoptApp" class="btn">Pet Adoption Website using React + Flask</a>
-  <a href="#gardeningApp" class="btn">UI/UX Design for Gardening Mobile App</a>
+  <h3>Projects</h3>
+  <a href="#petAdoptApp" class="btn">Pet Adoption Website - React + Flask</a>
+  <a href="#gardeningApp" class="btn">UI/UX Design - Gardening Mobile App</a>
 </div>
 
 <!-- Pet Adoption App -->
