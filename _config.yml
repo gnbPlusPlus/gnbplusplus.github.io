@@ -15,6 +15,7 @@ url: "https://gnbplusplus.github.io/gnbplusplus.github.io"
 breadcrumbs: true
 search: true
 
+# Info about me in sidebar
 author:
   name: "Noelle Bishop"
   avatar: "/assets/images/GNBishop_headshot.JPG"
@@ -26,3 +27,14 @@ author:
     #- label: "LinkedIn"
     #  icon: "fab fa-linkedin"
     #  url: "https://linkedin.com/in/url"
+    
+# Site navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
