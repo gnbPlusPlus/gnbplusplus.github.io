@@ -67,4 +67,5 @@ layout: home
 <!-- Gardening App -->
 <div id="gardeningApp">
   <h2>UI/UX Design for Gardening Mobile App</h2>
+  <p>test</p>
 </div>
