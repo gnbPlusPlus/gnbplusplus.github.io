@@ -14,7 +14,7 @@ layout: home
     font-style: italic;
   }
 
-  body h2, h3 {
+  body h2, h3, h4 {
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -53,9 +53,10 @@ layout: home
 
 <!-- Same-page links to project showcases for quicker access -->
 <div class="nav">
-  <h3>Projects - Quick Nav</h3>
+  <h3>Projects - Quick Navigation</h3>
   <ul>
     <li><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
+    <br>
     <li><a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a></li>
   </ul>
 </div>
