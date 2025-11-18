@@ -33,11 +33,14 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    color: #27BBF5;
     background-color:pink;
     border-radius: 8px;
     border-color: white;
     padding: 8px;
+  }
+
+  .navLink {
+    color: #27BBF5;
   }
 </style>
 
@@ -55,9 +58,9 @@ layout: home
 <div class="nav">
   <h3>Projects - Quick Navigation</h3>
   <ul>
-    <li><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
+    <li class="navLink"><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
     <br>
-    <li><a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a></li>
+    <li class="navLink"><a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a></li>
   </ul>
 </div>
 
