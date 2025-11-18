@@ -1,9 +1,1 @@
 theme: minima
-
-# Basic site info
-title: "Noelle's ePortfolio"
-description: "An ePortfolio website using the Minima theme"
-url: "https://gnbplusplus.github.io"
-
-breadcrumbs: true
-search: true
