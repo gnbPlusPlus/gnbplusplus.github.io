@@ -2,7 +2,7 @@ theme: minima
 
 # Basic site info
 title: "Noelle's ePortfolio"
-description: "A Minimal Mistakes site using the Dark skin"
+description: "An ePortfolio website using the Minima theme"
 url: "https://gnbplusplus.github.io"
 
 breadcrumbs: true
