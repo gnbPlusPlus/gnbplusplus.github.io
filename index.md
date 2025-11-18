@@ -4,4 +4,7 @@ title: Welcome to the ePortfolio!
 author_profile: true
 ---
 
-TODO: add stuff here
+<div>
+  <img src="/assets/images/GNBishop_headshot.JPG">
+  <h1>Welcome to the ePortfolio!</h1>
+</div>
