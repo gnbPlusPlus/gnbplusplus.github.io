@@ -10,7 +10,7 @@ minimal_mistakes_skin: "dark"
 # Basic site info
 title: "Noelle's ePortfolio"
 description: "A Minimal Mistakes site using the Dark skin"
-url: "https://gnbplusplus.github.io/gnbplusplus.github.io"
+url: "https://gnbplusplus.github.io"
 
 breadcrumbs: true
 search: true
