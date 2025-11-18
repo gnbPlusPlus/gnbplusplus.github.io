@@ -61,6 +61,7 @@ layout: home
 <!-- Pet Adoption App -->
 <div id="petAdoptApp">
   <h2>Pet Adoption Website using React + Flask</h2>
+  <p>test</p>
 </div>
 
 <!-- Gardening App -->
