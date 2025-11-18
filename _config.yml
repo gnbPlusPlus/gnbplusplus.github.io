@@ -1,11 +1,4 @@
-theme: null
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-plugins:
-  - jekyll-remote-theme
-
-# Choose the Plum skin
-minimal_mistakes_skin: "dark"
+theme: minima
 
 # Basic site info
 title: "Noelle's ePortfolio"
