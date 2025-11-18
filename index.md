@@ -33,15 +33,17 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    color: #27BBF5;
     background-color:pink;
     border-radius: 8px;
     border-color: white;
+    padding: 8px;
   }
 </style>
 
 <!-- Welcome + intro blurb -->
 <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
-  <img src="/assets/images/GNBishop_headshot.JPG" style="width:208px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
+  <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
@@ -61,11 +63,36 @@ layout: home
 <!-- Pet Adoption App -->
 <div id="petAdoptApp">
   <h2>Pet Adoption Website using React + Flask</h2>
-  <p>test</p>
+  <p>Description of project, purpose</p>
+  
+  <h3>Website</h3>
+  <h4>React frontend code</h4>
+  <p>Work in progress!</p>
+  
+  <h4>Flask backend code</h4>
+  <p>Work in progress!</p>
+  
+  <h4>MongoDB integration</h4>
+  <p>Work in progress!</p>
+  
+  <h4>Merge sort algorithm</h4>
+  <p>Work in progress!</p>
+  
+  <h3>UX Research & UI Design</h3>
+  <p>Work in progress!</p>
+  
+  <h3>Code Review</h3>
+  <p>Work in progress!</p>
 </div>
 
 <!-- Gardening App -->
 <div id="gardeningApp">
   <h2>UI/UX Design for Gardening Mobile App</h2>
-  <p>test</p>
+  <p>Description of project, purpose</p>
+
+  <h3>Low Fidelity Wireframe</h3>
+  <p>Work in progress!</p>
+
+  <h3>High Fidelity Wireframe</h3>
+  <p>Work in progress!</p>
 </div>
