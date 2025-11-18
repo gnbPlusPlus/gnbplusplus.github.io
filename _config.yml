@@ -29,7 +29,7 @@ author:
     #  url: "https://linkedin.com/in/url"
     
 # Site navigation
-nav:
+navigation:
   - title: "Home"
     url: /
   - title: "About"
