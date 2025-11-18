@@ -39,7 +39,7 @@ layout: home
     padding: 8px;
   }
 
-  .navLink {
+  .linkText {
     color: #27BBF5;
   }
 </style>
@@ -58,9 +58,9 @@ layout: home
 <div class="nav">
   <h2>Projects - Quick Navigation</h2>
   <ul>
-    <li class="navLink"><a href="#petAdoptApp" class="button">Pet Adoption Website - React + Flask</a></li>
+    <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
     <br>
-    <li class="navLink"><a href="#gardeningApp" class="button">UI/UX Design - Gardening Mobile App</a></li>
+    <li><a href="#gardeningApp" class="button"><span class="linkText">UI/UX Design - Gardening Mobile App</span></a></li>
   </ul>
 </div>
 
