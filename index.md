@@ -38,8 +38,8 @@ layout: home
     width: 20%;
     position: sticky;
     align-self: flex-start;
-    top: 70px;
-    padding-left: 60px;
+    top: 90px;
+    padding-left: 120px;
   }
 
   .rightColumn {
@@ -51,6 +51,7 @@ layout: home
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: italic;
+    align-text: center;
   }
 
   body h2, h3, h4 {
@@ -118,8 +119,8 @@ layout: home
   <div class="container">
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
-      <div style="display: flex; align-items: center; flex-direction: column; margin: 0 20px 20px 0;">
-        <img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:24px;border-color:#FDFDFD;margin:20px 15px 0 0;">
+      <div style="display: flex; align-items: center; flex-direction: column; margin: 0 0 25px 0;">
+        <img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:150px;border-color:#FDFDFD;margin:20px 15px 0 0;">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
           <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
