@@ -47,11 +47,11 @@ layout: home
   }
 
   body h1 {
-    font-family: font-family: "Google Sans Code", monospace;
+    font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: italic;
-    align-text: center;
+    text-align: center;
   }
 
   body h2, h3, h4 {
