@@ -45,7 +45,6 @@ layout: home
   .rightColumn {
     flex: 3;
     width: 60%;
-    top: 90px;
   }
 
   body h1 {
