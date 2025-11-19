@@ -41,11 +41,11 @@ layout: home
 
   .button:hover {
     background-color: #E4A5B6;
-    text-decoration-color: #0F4D66;
+    text-decoration-color: #FDFDFD;
   }
 
   .linkText {
-    color: #0F4D66;
+    color: #FDFDFD;
   }
 
   #scrollToTopButton {
@@ -70,7 +70,7 @@ layout: home
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><strong>Scroll to top</strong></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><span class="linkTest"><strong>Scroll to top</strong></span></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
