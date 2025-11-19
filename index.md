@@ -47,7 +47,6 @@ layout: home
   }
 
   body h1 {
-    font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: italic;
