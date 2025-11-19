@@ -35,7 +35,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 33%;
+    width: 30%;
     position: sticky;
     align-self: flex-start;
     top: 90px;
@@ -43,7 +43,7 @@ layout: home
   }
 
   .rightColumn {
-    width: 62%;
+    width: 65%;
   }
 
   body h1 {
@@ -119,7 +119,7 @@ layout: home
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
       <div style="display: flex; align-items: center; margin: 0 20px 20px 0;">
-        <img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:24px;border-color:#FDFDFD;margin:20px 15px 0 0;">
+        <!--img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:24px;border-color:#FDFDFD;margin:20px 15px 0 0;"-->
         <div>
          <h1>Welcome to the ePortfolio!</h1>
           <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
