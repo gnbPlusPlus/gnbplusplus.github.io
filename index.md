@@ -94,7 +94,7 @@ layout: home
 
   <!-- Pet Adoption App -->
   <div id="petAdoptApp">
-    <h2>Pet Adoption Website using React + Flask</h2>
+    <h2>Pet Adoption Website - React + Flask</h2>
     <p>Description of project, purpose</p>
     <h3>Website</h3>
     <h4>React frontend code</h4>
@@ -107,13 +107,13 @@ layout: home
     <p>Work in progress!</p>
     <h3>UX Research & UI Design</h3>
     <p>Work in progress!</p>
-    <h3>Code Review</h3>
+    <h3>Code Review, Course Outcomes, & Professional Assessment</h3>
     <p>Work in progress!</p>
   </div>
 
   <!-- Gardening App -->
   <div id="gardeningApp">
-    <h2>UI/UX Design for Gardening Mobile App using Lucidchart</h2>
+    <h2>UI/UX Design for Gardening Mobile App - Lucidchart</h2>
     <p>Description of project, purpose</p>
     <h3>Low Fidelity Wireframe</h3>
     <p>Work in progress!</p>
