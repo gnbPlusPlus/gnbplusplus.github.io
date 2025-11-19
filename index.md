@@ -63,6 +63,10 @@ layout: home
     text-decoration-color: #1C85AD;
     cursor: pointer;
     padding: 15px;
+    font-family: "TASA Orbiter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
   }
 
   #scrollToTopButton:hover {
@@ -134,7 +138,7 @@ layout: home
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       scrollToTopButton.style.display = "block";
     } else {
-      scrollToTopButton.style.display == "none";
+      scrollToTopButton.style.display = "none";
     }
   }
 
