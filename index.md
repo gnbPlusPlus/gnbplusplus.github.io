@@ -118,11 +118,11 @@ layout: home
   <div class="container">
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
-      <div>
+      <div style="display: flex; align-items: center; flex-direction:column;">
         <img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:24px;border-color:#FDFDFD;margin:20px 15px 0 0;">
         <div>
-          <h1>Welcome to the ePortfolio!</h1>
-          <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
+          <h1 style="align-text: center;">Welcome to the ePortfolio!</h1>
+          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
           <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
         </div>
       </div>
