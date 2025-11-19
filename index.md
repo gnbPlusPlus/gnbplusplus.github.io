@@ -91,8 +91,6 @@ layout: home
         <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
         <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
       </div>
-    </div>
-    <div style="order:2;">
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
         <h2>Projects - Quick Navigation</h2>
@@ -102,6 +100,8 @@ layout: home
           <li><a href="#gardeningApp" class="button"><span class="linkText">UI/UX Design - Gardening Mobile App</span></a></li>
         </ul>
       </div>
+    </div>
+    <div style="order:2;">
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website - React + Flask</h2>
