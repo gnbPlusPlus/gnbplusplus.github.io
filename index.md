@@ -21,7 +21,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 40%;
+    width: 35%;
     position: sticky;
     align-self: flex-start;
     top: 25px;
