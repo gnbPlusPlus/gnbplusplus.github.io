@@ -35,7 +35,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 35%;
+    width: 30%;
     position: sticky;
     align-self: flex-start;
     top: 90px;
@@ -43,7 +43,7 @@ layout: home
   }
 
   .rightColumn {
-    width: 60%;
+    width: 65%;
   }
 
   body h1 {
