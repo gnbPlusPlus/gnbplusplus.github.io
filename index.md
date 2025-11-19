@@ -125,7 +125,7 @@ layout: home
         <ul>
           <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
           <br>
-          <li><a href="#gardeningApp" class="button"><span class="linkText">UI/UX Design - Gardening Mobile App</span></a></li>
+          <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
         </ul>
       </div>
     </div>
@@ -150,7 +150,7 @@ layout: home
       </div>
       <!-- Gardening App -->
       <div id="gardeningApp">
-        <h2>UI/UX Design for Gardening Mobile App - Lucidchart</h2>
+        <h2>Gardening Mobile App UI/UX Design - Lucidchart</h2>
         <p>Description of project, purpose</p>
         <h3>Low Fidelity Wireframe</h3>
         <p>Work in progress!</p>
