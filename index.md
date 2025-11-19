@@ -21,14 +21,14 @@ layout: home
   }
 
   .leftColumn {
-    width: 30%;
+    width: 40%;
     position: sticky;
     align-self: flex-start;
-    top: 20px;
+    top: 25px;
   }
 
   .rightColumn {
-    width: 65%;
+    width: 60%;
   }
   
   body h1 {
