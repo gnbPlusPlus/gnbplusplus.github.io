@@ -17,6 +17,7 @@ layout: home
 
   .page-content, .wrapper {
     padding-top: 64px !important;
+    overflow: visible !important;
   }
   
   .wrapper {
@@ -44,6 +45,10 @@ layout: home
   .rightColumn {
     width: 60%;
     min-width: 0;
+  }
+
+  body {
+    padding-top: 64px;
   }
 
   body h1 {
