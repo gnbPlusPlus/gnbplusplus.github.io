@@ -20,13 +20,14 @@ layout: home
     justify-content: space-between;
   }
 
-  .left-col {
+  .leftColumn {
     width: 30%;
     position: sticky;
+    align-self: flex-start;
     top: 20px;
   }
 
-  .right-col {
+  .rightColumn {
     width: 65%;
   }
   
