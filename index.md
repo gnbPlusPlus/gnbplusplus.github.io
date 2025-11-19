@@ -8,14 +8,6 @@ layout: home
 <!-- CSS styling for page elements -->
 <style>
 
-  .site-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background: #FDFDFD;
-  }
-
   .page-content {
     padding-top: 70px !important;
   }
