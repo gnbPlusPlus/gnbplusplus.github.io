@@ -33,10 +33,15 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:pink;
+    background-color: #EAB8C5;
     border-radius: 8px;
     border-color: white;
     padding: 8px;
+  }
+
+  .button:hover {
+    background-color: #E4A5B6;
+    text-decoration-color: #1C85AD;
   }
 
   .linkText {
@@ -50,7 +55,7 @@ layout: home
   <div>
     <h1>Welcome to the ePortfolio!</h1>
     <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
-    <p>I graduate summa cum laude with a bachelor's degree in computer science in December 2025.</p>
+    <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
   </div>
 </div>
 
@@ -91,7 +96,7 @@ layout: home
 
 <!-- Gardening App -->
 <div id="gardeningApp">
-  <h2>UI/UX Design for Gardening Mobile App</h2>
+  <h2>UI/UX Design for Gardening Mobile App using Lucidchart</h2>
   <p>Description of project, purpose</p>
 
   <h3>Low Fidelity Wireframe</h3>
