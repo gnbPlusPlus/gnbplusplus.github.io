@@ -34,17 +34,17 @@ layout: home
   }
 
   .leftColumn {
-    width: 35%;
+    flex: 1;
+    min-width: 200px;
+    max-width:350px;
     position: sticky;
     align-self: flex-start;
     top: 90px;
-    min-width: 0;
     padding-left: 40px;
   }
 
   .rightColumn {
-    width: 60%;
-    min-width: 0;
+    flex: 3;
   }
 
   body h1 {
