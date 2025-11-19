@@ -118,7 +118,7 @@ layout: home
   <div class="container">
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
-      <div style="display:flex; align-items:center; margin: 0 20px 20px 0;">
+      <div>
         <img src="/assets/images/GNBishop_headshot.JPG" style="max-width:200px; height:auto; border-radius:24px;border-color:#FDFDFD;margin:20px 15px 0 0;">
         <div>
           <h1>Welcome to the ePortfolio!</h1>
