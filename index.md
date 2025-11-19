@@ -13,11 +13,11 @@ layout: home
     top: 0;
     width: 100%;
     z-index: 1000;
+    background: #FDFDFD;
   }
 
-  .page-content, .wrapper {
-    padding-top: 64px !important;
-    overflow: visible !important;
+  .page-content {
+    padding-top: 70px !important;
   }
   
   .wrapper {
@@ -30,14 +30,14 @@ layout: home
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 40px;
+    max-width: 100%;
   }
 
   .leftColumn {
     width: 35%;
     position: sticky;
     align-self: flex-start;
-    top: 89px;
+    top: 90px;
     min-width: 0;
     padding-left: 40px;
   }
@@ -45,10 +45,6 @@ layout: home
   .rightColumn {
     width: 60%;
     min-width: 0;
-  }
-
-  body {
-    padding-top: 64px;
   }
 
   body h1 {
