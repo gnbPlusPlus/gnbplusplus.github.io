@@ -47,6 +47,27 @@ layout: home
   .linkText {
     color: #1C85AD;
   }
+
+  #scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: white;
+    color: #1C85AD;
+    background-color: #EAB8C5;
+    text-decoration: underline;
+    text-decoration-color: #1C85AD;
+    cursor: pointer;
+    padding: 15px;
+  }
+
+  #scrollToTopButton:hover {
+    background-color: #E4A5B6;
+  }
 </style>
 
 <!-- Welcome + intro blurb -->
@@ -105,3 +126,24 @@ layout: home
   <h3>High Fidelity Wireframe</h3>
   <p>Work in progress!</p>
 </div>
+
+<!-- JavaScript stuff -->
+<script>
+  // Resource used for scroll to top functionalitY: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
+  let scrollToTopButton = document.getElementById("scrollToTopButton");
+
+  window.onscroll = function() {scrollDetector()};
+
+  function scrollDetector() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollToTopButton.style.display = "block";
+    } else {
+      scrollToTopButton.style.display == "none";
+    }
+  }
+
+  function scrollButtonPressed() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
