@@ -41,11 +41,11 @@ layout: home
 
   .button:hover {
     background-color: #E4A5B6;
-    text-decoration-color: #1C85AD;
+    text-decoration-color: #0F4D66;
   }
 
   .linkText {
-    color: #1C85AD;
+    color: #0F4D66;
   }
 
   #scrollToTopButton {
@@ -56,13 +56,21 @@ layout: home
     z-index: 99;
     font-size: 18px;
     text-decoration: none;
+    background-color: #EAB8C5;
+    border-radius: 8px;
+    border-color: white;
+    padding: 8px;
+    font-family: "TASA Orbiter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
   }
 
 </style>
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" " class="button"><span class="linkText">Scroll to top</span></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><strong>Scroll to top</strong></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
