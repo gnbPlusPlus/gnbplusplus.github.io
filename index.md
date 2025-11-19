@@ -22,7 +22,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 30%;
+    width: 35%;
     position: sticky;
     align-self: flex-start;
     top: 25px;
