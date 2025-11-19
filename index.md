@@ -33,14 +33,15 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color: #C43B5F;
+    background-color: #D98199;
     border-radius: 8px;
     border-color: #FDFDFD;
     padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
   .button:hover {
-    background-color: #A1304E;
+    background-color: #CF5E7C;
     text-decoration-color: #FDFDFD;
   }
 
@@ -55,8 +56,7 @@ layout: home
     right: 30px;
     z-index: 99;
     font-size: 18px;
-    text-decoration: none;
-    background-color: #C43B5F;
+    background-color: #D98199;
     border-radius: 8px;
     border-color: #FDFDFD;
     padding: 8px;
@@ -64,13 +64,18 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  #scrollToTopButton:hover {
+    background-color: #CF5E7C;
   }
 
 </style>
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><span class="linkText"><strong>Scroll to top</strong></span></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " text-decoration: none;><span class="linkText"><strong>Scroll to top</strong></span></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
