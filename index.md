@@ -14,6 +14,10 @@ layout: home
     width: 100%;
     z-index: 1000;
   }
+
+  .page-content, .wrapper {
+    padding-top: 64px !important;
+  }
   
   .wrapper {
     max-width: 100% !important;
@@ -32,7 +36,7 @@ layout: home
     width: 35%;
     position: sticky;
     align-self: flex-start;
-    top: 84px;
+    top: 89px;
     min-width: 0;
     padding-left: 40px;
   }
@@ -42,10 +46,6 @@ layout: home
     min-width: 0;
   }
 
-  body {
-    padding-top: 64px;
-  }
-  
   body h1 {
     font-family: font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
@@ -127,6 +127,7 @@ layout: home
         </div>
       </div>
       <hr>
+      <br>
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
         <h2>Projects - Quick Navigation</h2>
