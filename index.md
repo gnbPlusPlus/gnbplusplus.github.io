@@ -5,7 +5,7 @@ layout: home
 <!-- Google fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,800;1,800&family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
 
-<!-- Styling for page elements -->
+<!-- CSS styling for page elements -->
 <style>
   body h1 {
     font-family: font-family: "Google Sans Code", monospace;
@@ -55,27 +55,14 @@ layout: home
     right: 30px;
     z-index: 99;
     font-size: 18px;
-    border-radius: 8px;
-    border-color: white;
-    color: #1C85AD;
-    background-color: #EAB8C5;
-    text-decoration: underline;
-    text-decoration-color: #1C85AD;
-    cursor: pointer;
-    padding: 15px;
-    font-family: "TASA Orbiter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    text-decoration: none;
   }
 
-  #scrollToTopButton:hover {
-    background-color: #E4A5B6;
-  }
 </style>
 
+<!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top">Scroll to top</button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" " class="button"><span class="linkText">Scroll to top</span></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
