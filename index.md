@@ -29,7 +29,7 @@ layout: home
     width: 20%;
     position: sticky;
     align-self: flex-start;
-    top: 90px;
+    top: 20px;
     padding-left: 120px;
   }
 
