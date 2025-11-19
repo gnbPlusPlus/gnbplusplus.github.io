@@ -7,10 +7,27 @@ layout: home
 
 <!-- CSS styling for page elements -->
 <style>
+  
+  .wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 40px;
+  }
+  
   .container {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
+  }
+
+  .left-col {
+    width: 30%;
+    position: sticky;
+    top: 20px;
+  }
+
+  .right-col {
+    width: 65%;
   }
   
   body h1 {
@@ -84,7 +101,7 @@ layout: home
   <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " style="text-decoration:none;"><span class="linkText"><strong>Scroll to top</strong></span></a></button>
   <div class="container">
     <!-- Welcome + intro blurb -->
-    <div style="order:1; flex-grow:1; top:20px; left:30px">
+    <div class="leftColumn">
       <div style="display:flex; align-items:center; margin: 0 20px 20px 0;">
         <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:#FDFDFD;margin:0 15px 0 0;">
         <div>
@@ -103,7 +120,7 @@ layout: home
         </ul>
       </div>
     </div>
-    <div style="order:2; flex-grow:4;">
+    <div class="rightColumn">
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website - React + Flask</h2>
