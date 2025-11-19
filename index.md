@@ -34,7 +34,6 @@ layout: home
   }
 
   .leftColumn {
-    flex: 1;
     width: 35%;
     position: sticky;
     align-self: flex-start;
@@ -43,7 +42,6 @@ layout: home
   }
 
   .rightColumn {
-    flex: 3;
     width: 60%;
   }
 
