@@ -32,7 +32,7 @@ layout: home
     width: 35%;
     position: sticky;
     align-self: flex-start;
-    top: 25px;
+    top: 84px;
     min-width: 0;
     padding-left: 40px;
   }
@@ -43,7 +43,7 @@ layout: home
   }
 
   body {
-    padding-top: 60px;
+    padding-top: 64px;
   }
   
   body h1 {
