@@ -7,6 +7,10 @@ layout: home
 
 <!-- CSS styling for page elements -->
 <style>
+
+  .site-header {
+    position: sticky;
+  }
   
   .wrapper {
     max-width: 100% !important;
