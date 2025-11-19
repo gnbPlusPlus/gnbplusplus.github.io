@@ -75,7 +75,7 @@ layout: home
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " text-decoration: none;><span class="linkText"><strong>Scroll to top</strong></span></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " style="text-decoration:none;"><span class="linkText"><strong>Scroll to top</strong></span></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
