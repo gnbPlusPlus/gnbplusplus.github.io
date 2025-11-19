@@ -33,14 +33,14 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color: #EAB8C5;
+    background-color: #C43B5F;
     border-radius: 8px;
-    border-color: white;
+    border-color: #FDFDFD;
     padding: 8px;
   }
 
   .button:hover {
-    background-color: #E4A5B6;
+    background-color: #A1304E;
     text-decoration-color: #FDFDFD;
   }
 
@@ -56,9 +56,9 @@ layout: home
     z-index: 99;
     font-size: 18px;
     text-decoration: none;
-    background-color: #EAB8C5;
+    background-color: #C43B5F;
     border-radius: 8px;
-    border-color: white;
+    border-color: #FDFDFD;
     padding: 8px;
     font-family: "TASA Orbiter", sans-serif;
     font-optical-sizing: auto;
@@ -70,11 +70,11 @@ layout: home
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><span class="linkTest"><strong>Scroll to top</strong></span></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton" title="Scroll to top"><a href=" "><span class="linkText"><strong>Scroll to top</strong></span></a></button>
   
   <!-- Welcome + intro blurb -->
   <div style="display:flex; align-items:center; margin:0 20px 20px 0;">
-    <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:white;margin:0 15px 0 0;">
+    <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:#FDFDFD;margin:0 15px 0 0;">
     <div>
       <h1>Welcome to the ePortfolio!</h1>
       <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
