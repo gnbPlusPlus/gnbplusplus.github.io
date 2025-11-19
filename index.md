@@ -27,10 +27,11 @@ layout: home
     align-self: flex-start;
     top: 25px;
     min-width: 0;
+    padding-left: 40px;
   }
 
   .rightColumn {
-    width: 50%;
+    width: 60%;
     min-width: 0;
   }
   
