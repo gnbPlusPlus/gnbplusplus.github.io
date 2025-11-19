@@ -84,7 +84,7 @@ layout: home
   <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " style="text-decoration:none;"><span class="linkText"><strong>Scroll to top</strong></span></a></button>
   <div class="container">
     <!-- Welcome + intro blurb -->
-    <div style="order:1; display:flex; align-items:center; margin:0 20px 20px 0;">
+    <div style="order:1;">
       <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:#FDFDFD;margin:0 15px 0 0;">
       <div>
         <h1>Welcome to the ePortfolio!</h1>
