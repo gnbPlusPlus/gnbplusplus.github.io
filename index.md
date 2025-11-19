@@ -21,7 +21,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 35%;
+    width: 30%;
     position: sticky;
     align-self: flex-start;
     top: 25px;
@@ -104,7 +104,7 @@ layout: home
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
       <div style="display:flex; align-items:center; margin: 0 20px 20px 0;">
-        <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:#FDFDFD;margin:0 15px 0 0;">
+        <img src="/assets/images/GNBishop_headshot.JPG" style="width:206px;border-radius:24px;border-color:#FDFDFD;margin:15px 15px 0 0;">
         <div>
           <h1>Welcome to the ePortfolio!</h1>
           <p>Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
