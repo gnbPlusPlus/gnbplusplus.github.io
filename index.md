@@ -36,7 +36,7 @@ layout: home
   .leftColumn {
     flex: 1;
     min-width: 200px;
-    max-width:350px;
+    max-width:300px;
     position: sticky;
     align-self: flex-start;
     top: 90px;
@@ -45,6 +45,7 @@ layout: home
 
   .rightColumn {
     flex: 3;
+    top: 90px;
   }
 
   body h1 {
