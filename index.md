@@ -9,7 +9,10 @@ layout: home
 <style>
 
   .site-header {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   
   .wrapper {
@@ -37,6 +40,10 @@ layout: home
   .rightColumn {
     width: 60%;
     min-width: 0;
+  }
+
+  body {
+    padding-top: 60px;
   }
   
   body h1 {
