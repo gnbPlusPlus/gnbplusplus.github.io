@@ -41,7 +41,7 @@ layout: home
     font-weight: 800;
     font-style: italic;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
   }
 
   body h2, h3, h4 {
@@ -99,6 +99,10 @@ layout: home
     color: #FDFDFD;
   }
 
+   .nav {
+      list-style-type: none;
+   }
+
   #scrollToTopButton {
     display: none;
     position: fixed;
@@ -142,9 +146,11 @@ layout: home
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
         <h3>Projects - Quick Navigation</h3>
-        <a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a>
-        <br>
-        <a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a>
+         <ul>
+           <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
+           <!--br-->
+           <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
+         </ul>
       </div>
     </div>
     <div class="rightColumn">
