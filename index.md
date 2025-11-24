@@ -29,7 +29,7 @@ layout: home
     width: 20%;
     position: sticky;
     align-self: flex-start;
-    top: 90px;
+    top: 150px;
     padding-left: 120px;
   }
 
@@ -146,7 +146,7 @@ layout: home
         <h3>UX Research & UI Design</h3>
         <p>Work in progress!</p>
         <h3>Code Review, Course Outcomes, & Professional Assessment</h3>
-        <p>Work in progress!</p>
+        <iframe width="500" height="400" src="https://youtu.be/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
       </div>
       <!-- Gardening App -->
       <div id="gardeningApp">
