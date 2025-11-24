@@ -135,10 +135,16 @@ layout: home
         <h2>Pet Adoption Website - React + Flask</h2>
         <p>Description of project, purpose</p>
         <h3>Website</h3>
-         <img src="/assets/images/amp_home_1.png" style="max-width:600px">
-         <img src="/assets/images/amp_petdetails.png" style="max-width:600px">
         <h4>React frontend code</h4>
-        <p>Work in progress!</p>
+         <figure>
+            <img src="/assets/images/amp_home_1.png" style="max-width:800px">
+            <figcaption>AdoptMePls! Home screen</figcaption>
+         </figure>
+         <br>
+         <figure>
+            <img src="/assets/images/amp_petdetails.png" style="max-width:800px">
+            <figcaption>AdoptMePls! Pet details page</figcaption>
+         </figure>
         <h4>Flask backend code</h4>
         <p>Work in progress!</p>
         <h4>MongoDB integration</h4>
@@ -148,7 +154,7 @@ layout: home
         <h3>UX Research & UI Design</h3>
         <p>Work in progress!</p>
         <h3>Code Review, Course Outcomes, & Professional Assessment</h3>
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
+        <iframe width="800" height="600" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
       </div>
       <!-- Gardening App -->
       <div id="gardeningApp">
