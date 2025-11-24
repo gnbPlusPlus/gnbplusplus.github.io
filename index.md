@@ -74,6 +74,7 @@ layout: home
      font-weight: <weight>;
      font-style: italic;
      text-align: center;
+     margin-top: 8px;
    }
 
   .button {
@@ -156,7 +157,12 @@ layout: home
         <h4>React frontend</h4>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="max-width:800px">
-            <figcaption>AdoptMePls! Home screen</figcaption>
+            <figcaption>AdoptMePls! Home page</figcaption>
+         </figure>
+         <br>
+         <figure>
+            <img src="/assets/images/amp_filters_applied.png" style="max-width:800px">
+            <figcaption>AdoptMePls! Home page with filters and sorting applied</figcaption>
          </figure>
          <br>
          <figure>
