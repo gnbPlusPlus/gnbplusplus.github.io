@@ -119,7 +119,7 @@ layout: home
     font-family: "TASA Orbiter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;
+    font-style: italic;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
