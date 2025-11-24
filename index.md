@@ -140,12 +140,10 @@ layout: home
       <br>
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
-        <h2>Projects - Quick Navigation</h2>
-        <ul>
-          <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
-          <br>
-          <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
-        </ul>
+        <h3>Projects - Quick Navigation</h3>
+        <a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a>
+        <br>
+        <a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a>
       </div>
     </div>
     <div class="rightColumn">
