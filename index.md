@@ -58,6 +58,11 @@ layout: home
     font-style: normal;
   }
 
+   figure img {
+     display: block;
+     margin: 0 auto;
+   }
+
    figcaption {
      font-family: "TASA Orbiter", sans-serif;
      font-optical-sizing: auto;
@@ -170,7 +175,7 @@ layout: home
         <p>Work in progress!</p>
         <h3>High Fidelity Wireframe</h3>
         <figure>
-           <img src="gardening_app_wireframe.png" style="max-width:800px">
+           <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
         </figure>
       </div>
