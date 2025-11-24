@@ -137,7 +137,7 @@ layout: home
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
       <div style="display: flex; align-items: center; flex-direction: column; margin: 0 0 10px 0;">
-        <img src="/assets/images/blue_headshot_white_bg.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+        <img src="/assets/images/blue_headshot_no_bg.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
           <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
@@ -149,7 +149,7 @@ layout: home
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
         <h3 style="text-align:center;">Projects - Quick Navigation</h3>
-         <ul style="list-style-type:none; margin:0; padding:0;">
+         <ul style="list-style-type:none; padding:0;">
            <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
            <!--br-->
            <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
