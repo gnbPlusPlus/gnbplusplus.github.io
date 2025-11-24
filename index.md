@@ -99,10 +99,12 @@ layout: home
     color: #FDFDFD;
   }
 
-   ul li {
-      margin: 0 0 8px 0;
+   .leftColumn ul {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
    }
-
+   
   #scrollToTopButton {
     display: none;
     position: fixed;
