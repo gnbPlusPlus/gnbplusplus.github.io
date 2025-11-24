@@ -102,7 +102,7 @@ layout: home
    .leftColumn ul {
      display: flex;
      flex-direction: column;
-     gap: 10px;
+     gap: 25px;
    }
    
   #scrollToTopButton {
