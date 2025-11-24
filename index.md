@@ -29,7 +29,6 @@ layout: home
     width: 20%;
     position: sticky;
     align-self: flex-start;
-    top: 200px;
     padding-left: 120px;
   }
 
