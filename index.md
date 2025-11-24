@@ -41,6 +41,7 @@ layout: home
     font-weight: 800;
     font-style: italic;
     text-align: center;
+    font-size: 30px;
   }
 
   body h2, h3, h4 {
