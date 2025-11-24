@@ -136,7 +136,7 @@ layout: home
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
       <div style="display: flex; align-items: center; flex-direction: column; margin: 0 0 10px 0;">
-        <img src="/assets/images/blue_headshot.png" style="max-width:200px; height:auto; border-radius:150px;border-color:#FDFDFD;margin:20px 0 8px 0;">
+        <img src="/assets/images/blue_headshot.png" style="max-width:200px; height:auto; border-radius:150px;border-color:#FDFDFD;margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
           <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
