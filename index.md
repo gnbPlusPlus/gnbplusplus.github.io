@@ -58,6 +58,14 @@ layout: home
     font-style: normal;
   }
 
+   figcaption {
+     font-family: "TASA Orbiter", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: italic;
+     text-align: center;
+   }
+
   .button {
     font-family: "TASA Orbiter", sans-serif;
     font-optical-sizing: auto;
@@ -135,7 +143,7 @@ layout: home
         <h2>Pet Adoption Website - React + Flask</h2>
         <p>Description of project, purpose</p>
         <h3>Website</h3>
-        <h4>React frontend code</h4>
+        <h4>React frontend</h4>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="max-width:800px">
             <figcaption>AdoptMePls! Home screen</figcaption>
@@ -145,11 +153,9 @@ layout: home
             <img src="/assets/images/amp_petdetails.png" style="max-width:800px">
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
-        <h4>Flask backend code</h4>
+        <h4>Flask backend</h4>
         <p>Work in progress!</p>
         <h4>MongoDB integration</h4>
-        <p>Work in progress!</p>
-        <h4>Merge sort algorithm</h4>
         <p>Work in progress!</p>
         <h3>UX Research & UI Design</h3>
         <p>Work in progress!</p>
@@ -163,7 +169,10 @@ layout: home
         <h3>Low Fidelity Wireframe</h3>
         <p>Work in progress!</p>
         <h3>High Fidelity Wireframe</h3>
-        <p>Work in progress!</p>
+        <figure>
+           <img src="gardening_app_wireframe.png" style="max-width:800px">
+           <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
+        </figure>
       </div>
     </div>
   </div>
