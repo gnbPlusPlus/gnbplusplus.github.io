@@ -131,7 +131,7 @@ layout: home
 
 <!-- Main HTML code -->
 <body>
-  <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " style="text-decoration:none;"><span class="linkText"><strong>Scroll to top</strong></span></a></button>
+  <button onclick="scrollButtonPressed()" id="scrollToTopButton"><a href=" " style="text-decoration:none;"><span class="linkText">Scroll to top</span></a></button>
   <div class="container">
     <!-- Welcome + intro blurb -->
     <div class="leftColumn">
@@ -183,7 +183,7 @@ layout: home
         <h3>UX Research & UI Design</h3>
         <p>Work in progress!</p>
         <h3>Code Review, Course Outcomes, & Professional Assessment</h3>
-        <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
+        <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
       </div>
       <!-- Gardening App -->
       <div id="gardeningApp">
