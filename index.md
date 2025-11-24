@@ -142,7 +142,7 @@ layout: home
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
         <h3 style="text-align:center;">Projects - Quick Navigation</h3>
-         <ul style="list-style-type:none; margin:0; padding:0;">
+         <ul style="list-style-type:none; margin:0 0 5px 0; padding:0;">
            <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
            <!--br-->
            <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
