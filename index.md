@@ -57,6 +57,12 @@ layout: home
     font-style: normal;
   }
 
+   figure {
+     display: inline-block;
+     text-align: center;
+     margin: 0 0 20px 0; 
+   }
+
    figure img {
      display: block;
      margin: 0 auto;
