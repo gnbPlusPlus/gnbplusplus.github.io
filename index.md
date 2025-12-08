@@ -33,7 +33,7 @@ layout: home
   }
 
   .rightColumn {
-    width: 65%;
+    width: 75%;
   }
 
   body h1 {
