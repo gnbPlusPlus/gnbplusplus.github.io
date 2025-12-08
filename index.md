@@ -33,7 +33,7 @@ layout: home
   }
 
   .rightColumn {
-    width: 75%;
+    width: 68%;
   }
 
   body h1 {
@@ -214,8 +214,8 @@ layout: home
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
-       </figure-->
-      </div>
+       </figure>
+    </div-->
     </div>
   </div>
 </body>
