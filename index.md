@@ -140,7 +140,7 @@ layout: home
         <img src="/assets/images/blue_headshot_edited.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
-          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. Please note that my capstone project (pet adoption website) is a work in progress to be completed by graduation!</p>
+          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>, with my capstone project as the main attraction.</p>
           <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
         </div>
       </div>
@@ -148,20 +148,35 @@ layout: home
       <br>
       <!-- Same-page links to project showcases for quicker access -->
       <div class="nav">
-        <h3 style="text-align:center;">Projects - Quick Navigation</h3>
+        <h3 style="text-align:center;">Quick Navigation</h3>
          <ul style="list-style-type:none; margin:0; padding:0;">
-           <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website - React + Flask</span></a></li>
-           <!--br-->
-           <li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li>
+           <li><a href="#professionalSelfAssessment" class="button"><span class="linkText">Professional Self-Assessment</span></a></li>
+            <li><a href="#codeReview" class="button"><span class="linkText">Capstone Code Review</span></a></li>
+           <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website Demo</span></a></li>
+           <!--li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li-->
          </ul>
       </div>
     </div>
     <div class="rightColumn">
+       <!-- Professional Self-Assessment -->
+       <div id="professionalSelfAssessment">
+          <h2>Professional Self-Assessment</h2>
+          <p>write about prompts. . .</p>
+       </div>
+      <!-- Code Review -->
+       <div>
+          <h2>Original Artifact & Code Review</h2>
+          <p>Describe original artifact and what changes were proposed. . .</p>
+          <!-- insert images of original dashboard from CS-340 here! -->
+          <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
+       </div>
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
-        <h2>Pet Adoption Website - React + Flask</h2>
+        <h2>Pet Adoption Website Demo</h2>
         <p>Description of project, purpose</p>
-        <h3>Website</h3>
+        <h3>Software Design & Development - React + Flask</h3>
+        <h4>UI Design, UX Research</h4>
+        <p>Talk about UI/X stuff here. . .</p>
         <h4>React frontend</h4>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="max-width:800px">
@@ -179,15 +194,18 @@ layout: home
          </figure>
         <h4>Flask backend</h4>
         <p>Work in progress!</p>
-        <h4>MongoDB integration</h4>
+        <h4>Narrative</h4>
+        <h3>Data Structures & Algorithms - Merge Sort</h3>
         <p>Work in progress!</p>
-        <h3>UX Research & UI Design</h3>
+        <h4>Narrative</h4>
+        <p>Narrative goes here. . .</p>
+        <h3>Databases - MongoDB</h3>
         <p>Work in progress!</p>
-        <h3>Code Review, Course Outcomes, & Professional Assessment</h3>
-        <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
+        <h4>Narrative</h4>
+        <p>Narrative goes here. . .</p>
       </div>
       <!-- Gardening App -->
-      <div id="gardeningApp">
+      <!--div id="gardeningApp">
         <h2>Gardening Mobile App UI/UX Design - Lucidchart</h2>
         <p>Description of project, purpose</p>
         <h3>Low Fidelity Wireframe</h3>
@@ -196,7 +214,7 @@ layout: home
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
-        </figure>
+       </figure-->
       </div>
     </div>
   </div>
