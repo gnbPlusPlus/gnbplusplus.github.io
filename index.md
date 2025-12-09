@@ -167,7 +167,9 @@ layout: home
        <div>
           <h2>Original Artifact & Code Review</h2>
           <p>Describe original artifact and what changes were proposed. . .</p>
+          <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <!-- insert images of original dashboard from CS-340 here! -->
+          <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out my writing a detailed plan that addressed changes in category, followed by a code review that scrutinized what, from the original project, could be kept, reworked, or ignored.</p>
           <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
        </div>
       <!-- Pet Adoption App -->
@@ -195,6 +197,7 @@ layout: home
         <h4>Flask backend</h4>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
+        <p>Narrative goes here. . .</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
