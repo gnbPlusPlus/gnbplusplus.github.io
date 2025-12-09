@@ -36,6 +36,10 @@ layout: home
     width: 68%;
   }
 
+   .rightColumn p {
+      max-width: 800px;
+   }
+
   body h1 {
     font-optical-sizing: auto;
     font-weight: 800;
@@ -105,7 +109,7 @@ layout: home
      align-items: center;
      gap: 20px;
    }
-   
+
   #scrollToTopButton {
     display: none;
     position: fixed;
