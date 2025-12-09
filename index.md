@@ -175,7 +175,7 @@ layout: home
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website Demo</h2>
-        <p>Description of project, purpose</p>
+        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website that demonstrates basic viewing, filtering, and sorting capabilities. To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend, Flask for the backend. </p>
         <h3>Software Design & Development - React + Flask</h3>
         <h4>UI Design, UX Research</h4>
         <p>Talk about UI/X stuff here. . .</p>
