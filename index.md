@@ -175,7 +175,7 @@ layout: home
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
-            <img src="/assets/images/original_dashboard.png">
+            <img src="/assets/images/original_dashboard.png" style="width:800px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
           <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
@@ -192,28 +192,33 @@ layout: home
         <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <figure>
-            <img src="/assets/images/amp_ux_q1.PNG">
+            <img src="/assets/images/amp_ux_q1.PNG" style="width:800px">
             <figcaption>Question 1 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q2.PNG">
+            <img src="/assets/images/amp_ux_q2.PNG" style="width:800px">
             <figcaption>Question 2 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q3.PNG">
+            <img src="/assets/images/amp_ux_q3.PNG" style="width:800px">
             <figcaption>Question 3 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q4.PNG">
+            <img src="/assets/images/amp_ux_q4.PNG" style="width:800px">
             <figcaption>Question 4 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q5.PNG">
+            <img src="/assets/images/amp_ux_q5.PNG" style="width:800px">
             <figcaption>Question 5 & Responses</figcaption>
          </figure>
+        <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
+        <figure>
+            <img src="/assets/images/amp_wireframe.PNG" style="width:800px">
+            <figcaption>Home & Pet Details pages wireframes</figcaption>
+        </figure>
         <h4>The website</h4>
-        <p>View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/">https://adoptmepls.vercel.app</a>.</p>
-        <p>The website is housed on Render for the backend and Vercel for the frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
+        <p>View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/" target="_blank">https://adoptmepls.vercel.app</a>.</p>
+        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Home page</figcaption>
