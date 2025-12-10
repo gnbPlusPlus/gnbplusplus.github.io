@@ -41,8 +41,10 @@ layout: home
     width: 100%;
    }
 
-  .rightColumn img {
-    align-items: center;
+  .rightColumn figure {
+    width: auto;
+    margin: 0 auto;
+    display: block;
   }
 
   body h1 {
@@ -53,7 +55,7 @@ layout: home
     font-size: 28px;
   }
 
-  body h2, h3, h4 {
+  body h2, body h3, body h4 {
     font-family: "Google Sans Code", monospace;
     font-optical-sizing: auto;
     font-weight: 800;
