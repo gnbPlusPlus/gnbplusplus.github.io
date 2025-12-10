@@ -7,7 +7,7 @@ layout: home
 
 <!-- CSS styling for page elements -->
 <style>
-   
+   /*
   .page-content {
     padding-top: 70px !important;
   }
@@ -17,7 +17,7 @@ layout: home
     width: 100% !important;
     padding: 0;
   }
-  
+  */
   .container {
     display: flex;
     align-items: flex-start;
