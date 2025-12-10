@@ -169,7 +169,7 @@ layout: home
           <p>write about prompts. . .</p>
        </div>
       <!-- Code Review -->
-       <div>
+       <div id="codeReview">
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
