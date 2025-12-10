@@ -176,7 +176,7 @@ layout: home
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
-            <img src="/assets/images/original_dashboard.png" style="width:800px">
+            <img src="/assets/images/original_dashboard2.png" style="width:800px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
           <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
@@ -214,7 +214,7 @@ layout: home
          </figure>
         <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
         <figure>
-            <img src="/assets/images/amp_wireframe.PNG" style="width:800px">
+            <img src="/assets/images/amp_wireframe.png" style="width:800px">
             <figcaption>Home & Pet Details pages wireframes</figcaption>
         </figure>
         <h4>The website</h4>
