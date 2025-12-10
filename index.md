@@ -30,6 +30,7 @@ layout: home
     position: sticky;
     align-self: flex-start;
     padding-left: 120px;
+    overflow-x: hidden;
   }
 
   .rightColumn {
@@ -207,7 +208,7 @@ layout: home
         <p>Narrative goes here. . .</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
          <figure>
-            <img src="/assets/images/amp_merge_sort.png" style="width:800px">
+            <img src="/assets/images/amp_merge_sort.PNG" style="width:800px">
             <figcaption>Merge sort algorithm implemented in the backend</figcaption>
         </figure>
         <p>Work in progress!</p>
@@ -215,7 +216,7 @@ layout: home
         <p>Narrative goes here. . .</p>
         <h3>Databases - MongoDB</h3>
         <figure>
-            <img src="/assets/images/amp_database_document.png" style="width:800px">
+            <img src="/assets/images/amp_database_document.PNG" style="width:800px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
         <p>Work in progress!</p>
