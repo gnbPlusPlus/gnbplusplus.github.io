@@ -144,7 +144,7 @@ layout: home
         <img src="/assets/images/blue_headshot_edited.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
-          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>, with my capstone project as the main attraction.</p>
+          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. You can view the website I made for my capstone project, a pet adoption demo called AdoptMePls!, <a href="https://adoptmepls.vercel.app/">here</a>./</p>
           <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
         </div>
       </div>
@@ -170,19 +170,21 @@ layout: home
       <!-- Code Review -->
        <div>
           <h2>Original Artifact & Code Review</h2>
-          <p>Describe original artifact and what changes were proposed. . .</p>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
-          <!-- insert images of original dashboard from CS-340 here! -->
-          <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out my writing a detailed plan that addressed changes in category, followed by a code review that scrutinized what, from the original project, could be kept, reworked, or ignored.</p>
+          <figure>
+            <img src="/assets/images/original_dashboard.png" style="max-width:800px">
+            <figcaption>Original dashboard from CS-340</figcaption>
+          </figure>
+          <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
           <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
        </div>
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website Demo</h2>
-        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website that demonstrates basic viewing, filtering, and sorting capabilities. To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend, Flask for the backend. </p>
+        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website demo that demonstrates basic viewing, filtering, and sorting capabilities on a database of available pets. To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend and Flask for the backend. I reused MongoDB from the original project, since a nonrelational database makes the most sense for a group of pets with varying attributes, but made my own from scratch using MongoDB Atlas. Finally, sorting the pets is done using the merge sort algorithm to demonstrate my familiarity with choosing and using an appropriate algorithm given project and runtime considerations. The enhancements made in each of the three major categories are discussed further below.</p>
         <h3>Software Design & Development - React + Flask</h3>
         <h4>UI Design, UX Research</h4>
-        <p>Talk about UI/X stuff here. . .</p>
+        <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design. These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <h4>React frontend</h4>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="max-width:800px">
