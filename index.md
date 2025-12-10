@@ -19,7 +19,7 @@ layout: home
     left: 0;
     height: 100vh;
     overflow-y: auto;
-    padding: 32px;
+    padding: 64px;
     box-sizing: border-box;
   }
 
@@ -27,6 +27,7 @@ layout: home
     margin-left: 20%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
    .rightColumn > * {
@@ -139,7 +140,8 @@ layout: home
         <img src="/assets/images/blue_headshot_edited.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
-          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. You can view the website I made for my capstone project, a pet adoption demo called AdoptMePls, <a href="https://adoptmepls.vercel.app/" target="_blank">here</a>.</p>
+          <p>Hi! I'm Noelle. In this ePortfolio, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>.</p>
+          <p>You can view the website I made for my capstone project, a pet adoption demo called <em>AdoptMePls</em>, <a href="https://adoptmepls.vercel.app/" target="_blank">here</a>.</p>
           <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
         </div>
       </div>
