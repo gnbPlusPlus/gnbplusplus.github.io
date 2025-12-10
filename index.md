@@ -18,13 +18,19 @@ layout: home
     top: 0;
     left: 0;
     height: 100vh;
-    overflow-y: hidden;
-    padding: 70px 0 0 80px;;
+    overflow-y: auto;
+    padding: 70px 0 0 75px;;
     box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .leftColumn::-webkit-scrollbar {
+    display: none;
   }
 
   .rightColumn {
-    margin-left: 0;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -186,7 +192,7 @@ layout: home
         <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <h4>The website</h4>
-        <p>View the latest iteration of AdoptMePls by following this link: https://adoptmepls.vercel.app/.</p>
+        <p>View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/">https://adoptmepls.vercel.app/<a>.</p>
         <p>The website is housed on Render for the backend and Vercel for the frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="width:600px, height:350px">
