@@ -29,7 +29,6 @@ layout: home
     width: 20%;
     position: fixed;
     align-self: flex-start;
-    padding-left: 120px;
   }
 
   .rightColumn {
