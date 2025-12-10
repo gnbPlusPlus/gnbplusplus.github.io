@@ -173,7 +173,7 @@ layout: home
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
-            <img src="/assets/images/original_dashboard.png" style="width:800px, height:500px">
+            <img src="/assets/images/original_dashboard.png" style="width:800px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
           <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
@@ -193,17 +193,17 @@ layout: home
         <p>View the latest iteration of AdoptMePls by following this link: https://adoptmepls.vercel.app/.</p>
         <p>The website is housed on Render for the backend and Vercel for the frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
          <figure>
-            <img src="/assets/images/amp_home_1.png" style="width:800px, height:500px">
+            <img src="/assets/images/amp_home_1.png" style="width:800px">
             <figcaption>AdoptMePls! Home page</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_filters_applied.png" style="width:800px, height:500px">
+            <img src="/assets/images/amp_filters_applied.png" style="width:800px">
             <figcaption>AdoptMePls! Home page with filters and sorting applied</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_petdetails.png" style="width:800px, height:500px">
+            <img src="/assets/images/amp_petdetails.png" style="width:800px">
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
         <h4>Narrative</h4>
@@ -218,7 +218,7 @@ layout: home
         <p>Narrative goes here. . .</p>
         <h3>Databases - MongoDB</h3>
         <figure>
-            <img src="/assets/images/amp_database_document.PNG" style="width:800px, height:500px">
+            <img src="/assets/images/amp_database_document.PNG" style="width:800px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
         <p>Work in progress!</p>
