@@ -73,6 +73,7 @@ layout: home
      display: block;
      margin: 0 auto;
      border: 1px solid black;
+     align-items: center;
    }
 
    figure figcaption {
@@ -192,28 +193,28 @@ layout: home
         <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <figure>
-            <img src="/assets/images/amp_ux_q1.PNG" style="width:800px">
+            <img src="/assets/images/amp_ux_q1.PNG">
             <figcaption>Question 1 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q2.PNG" style="width:800px">
+            <img src="/assets/images/amp_ux_q2.PNG">
             <figcaption>Question 2 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q3.PNG" style="width:800px">
+            <img src="/assets/images/amp_ux_q3.PNG">
             <figcaption>Question 3 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q4.PNG" style="width:800px">
+            <img src="/assets/images/amp_ux_q.PNG">
             <figcaption>Question 4 & Responses</figcaption>
          </figure>
          <figure>
-            <img src="/assets/images/amp_ux_q5.PNG" style="width:800px">
+            <img src="/assets/images/amp_ux_q5.PNG">
             <figcaption>Question 5 & Responses</figcaption>
          </figure>
         <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
         <figure>
-            <img src="/assets/images/amp_wireframe.PNG" style="width:800px">
+            <img src="/assets/images/amp_wirefram.PNG" style="width:800px">
             <figcaption>Home & Pet Details pages wireframes</figcaption>
         </figure>
         <h4>The website</h4>
