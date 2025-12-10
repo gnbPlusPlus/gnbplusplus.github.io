@@ -19,17 +19,19 @@ layout: home
     left: 0;
     height: 100vh;
     overflow-y: auto;
-    padding: 16px;
+    padding: 32px;
     box-sizing: border-box;
   }
 
   .rightColumn {
-    width: 80%;
     margin-left: 20%;
+    display: flex;
+    justify-content: center;
   }
 
-   .rightColumn p {
-      max-width: 800px;
+   .rightColumn > * {
+    max-width: 800px;
+    width: 100%;
    }
 
   body h1 {
