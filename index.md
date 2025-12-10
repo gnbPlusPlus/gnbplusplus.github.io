@@ -219,7 +219,7 @@ layout: home
          </figure>
         <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
         <figure>
-            <img src="/assets/images/amp_wireframe.png" style="width:800px">
+            <img src="/assets/images/amp_wireframes.png" style="width:800px">
             <figcaption>Home & Pet Details pages wireframes</figcaption>
         </figure>
         <h4>The website</h4>
