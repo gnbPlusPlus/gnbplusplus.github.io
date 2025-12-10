@@ -172,7 +172,7 @@ layout: home
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
-            <img src="/assets/images/original_dashboard.png" style="max-width:800px">
+            <img src="/assets/images/original_dashboard.png" style="width:800px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
           <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
@@ -181,34 +181,43 @@ layout: home
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website Demo</h2>
-        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website demo that demonstrates basic viewing, filtering, and sorting capabilities on a database of available pets. To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend and Flask for the backend. I reused MongoDB from the original project, since a nonrelational database makes the most sense for a group of pets with varying attributes, but made my own from scratch using MongoDB Atlas. Finally, sorting the pets is done using the merge sort algorithm to demonstrate my familiarity with choosing and using an appropriate algorithm given project and runtime considerations. The enhancements made in each of the three major categories are discussed further below.</p>
+        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website demo that demonstrates basic viewing, filtering, and sorting capabilities on a database of available pets.</p>
+        <p>To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend and Flask for the backend. I reused MongoDB from the original project, since a nonrelational database makes the most sense for a group of pets with varying attributes, but made my own from scratch using MongoDB Atlas. Finally, sorting the pets is done using the merge sort algorithm to demonstrate my familiarity with choosing and using an appropriate algorithm given project and runtime considerations.</p> 
+         <p>The enhancements made in each of the three major categories are discussed further below.</p>
         <h3>Software Design & Development - React + Flask</h3>
         <h4>UI Design, UX Research</h4>
-        <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design. These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
-        <h4>React frontend</h4>
+        <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
+        <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
+        <h4>The website</h4>
          <figure>
-            <img src="/assets/images/amp_home_1.png" style="max-width:800px">
+            <img src="/assets/images/amp_home_1.png" style="width:800px">
             <figcaption>AdoptMePls! Home page</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_filters_applied.png" style="max-width:800px">
+            <img src="/assets/images/amp_filters_applied.png" style="width:800px">
             <figcaption>AdoptMePls! Home page with filters and sorting applied</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_petdetails.png" style="max-width:800px">
+            <img src="/assets/images/amp_petdetails.png" style="width:800px">
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
-        <h4>Flask backend</h4>
-        <p>Work in progress!</p>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
+         <figure>
+            <img src="/assets/images/amp_merge_sort.png" style="width:800px">
+            <figcaption>Merge sort algorithm implemented in the backend</figcaption>
+        </figure>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
         <h3>Databases - MongoDB</h3>
+        <figure>
+            <img src="/assets/images/amp_database_document.png" style="width:800px">
+            <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
+        </figure>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
