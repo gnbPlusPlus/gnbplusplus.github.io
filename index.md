@@ -41,6 +41,10 @@ layout: home
     width: 100%;
    }
 
+  .rightColumn img {
+    align-items: center;
+  }
+
   body h1 {
     font-optical-sizing: auto;
     font-weight: 800;
@@ -73,7 +77,6 @@ layout: home
      display: block;
      margin: 0 auto;
      border: 1px solid black;
-     align-items: center;
    }
 
    figure figcaption {
