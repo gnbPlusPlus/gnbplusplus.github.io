@@ -13,7 +13,7 @@ layout: home
   }
 
   .leftColumn {
-    width: 20%;
+    width: 30%;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@ layout: home
   }
 
   .rightColumn {
-    margin-left: 20%;
+    margin-left: 30%;
     display: flex;
     justify-content: center;
     flex-direction: column;
