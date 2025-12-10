@@ -179,13 +179,15 @@ layout: home
       <!-- Code Review -->
        <div id="codeReview">
           <h2>Original Artifact & Code Review</h2>
-          <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
+          <p>The capstone project was about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
             <img src="/assets/images/original_dashboard2.png" style="width:800px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
-          <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
+          <br>
+          <p>My capstone work sought to enhance the dashboard in three categories: <strong>software engineering & design, data structures & algorithms, and databases</strong>. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
           <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
+          <br>
        </div>
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
@@ -199,29 +201,35 @@ layout: home
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <figure>
             <img src="/assets/images/amp_ux_q1.PNG">
-            <figcaption>Question 1 & Responses</figcaption>
+            <figcaption>Interview Question 1 & Responses</figcaption>
          </figure>
+         <br>
          <figure>
             <img src="/assets/images/amp_ux_q2.PNG">
-            <figcaption>Question 2 & Responses</figcaption>
+            <figcaption>Interview Question 2 & Responses</figcaption>
          </figure>
+         <br>
          <figure>
             <img src="/assets/images/amp_ux_q3.PNG">
-            <figcaption>Question 3 & Responses</figcaption>
+            <figcaption>Interview Question 3 & Responses</figcaption>
          </figure>
+         <br>
          <figure>
             <img src="/assets/images/amp_ux_q4.PNG">
-            <figcaption>Question 4 & Responses</figcaption>
+            <figcaption>Interview Question 4 & Responses</figcaption>
          </figure>
+         <br>
          <figure>
             <img src="/assets/images/amp_ux_q5.PNG">
-            <figcaption>Question 5 & Responses</figcaption>
+            <figcaption>Interview Question 5 & Responses</figcaption>
          </figure>
+         <br>
         <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
         <figure>
             <img src="/assets/images/amp_wireframes.PNG" style="width:800px">
             <figcaption>Home & Pet Details pages wireframes</figcaption>
         </figure>
+        <br>
         <h4>The website</h4>
         <p>View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/" target="_blank">https://adoptmepls.vercel.app</a>.</p>
         <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
@@ -239,6 +247,7 @@ layout: home
             <img src="/assets/images/amp_petdetails.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
+         <br>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
@@ -246,6 +255,7 @@ layout: home
             <img src="/assets/images/amp_merge_sort.PNG" style="width:800px">
             <figcaption>Merge sort algorithm implemented in the backend</figcaption>
         </figure>
+        <br>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
@@ -254,6 +264,7 @@ layout: home
             <img src="/assets/images/amp_database_document.PNG" style="width:800px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
+        <br>
         <p>Work in progress!</p>
         <h4>Narrative</h4>
         <p>Narrative goes here. . .</p>
