@@ -7,21 +7,8 @@ layout: home
 
 <!-- CSS styling for page elements -->
 <style>
-   /*
-  .page-content {
-    padding-top: 70px !important;
-  }
-  
-  .wrapper {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding: 0;
-  }
-  */
   .container {
     display: flex;
-    /*align-items: flex-start;
-    justify-content: space-between;*/
     max-width: 100%;
   }
 
@@ -32,12 +19,13 @@ layout: home
     left: 0;
     height: 100vh;
     overflow-y: auto;
+    padding: 16px;
+    box-sizing: border-box;
   }
 
   .rightColumn {
     width: 80%;
     margin-left: 20%;
-    padding: 20px;
   }
 
    .rightColumn p {
