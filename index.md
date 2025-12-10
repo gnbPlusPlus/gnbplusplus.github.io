@@ -20,19 +20,24 @@ layout: home
   */
   .container {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    /*align-items: flex-start;
+    justify-content: space-between;*/
     max-width: 100%;
   }
 
   .leftColumn {
     width: 20%;
     position: fixed;
-    align-self: flex-start;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
   }
 
   .rightColumn {
-    width: 68%;
+    width: 80%;
+    margin-left: 20%;
+    padding: 20px;
   }
 
    .rightColumn p {
