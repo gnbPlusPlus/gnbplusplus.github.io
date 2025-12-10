@@ -27,10 +27,9 @@ layout: home
 
   .leftColumn {
     width: 20%;
-    position: sticky;
+    position: fixed;
     align-self: flex-start;
     padding-left: 120px;
-    overflow-x: hidden;
   }
 
   .rightColumn {
@@ -72,6 +71,7 @@ layout: home
    figure img {
      display: block;
      margin: 0 auto;
+     border: 1px solid black;
    }
 
    figure figcaption {
@@ -145,7 +145,7 @@ layout: home
         <img src="/assets/images/blue_headshot_edited.png" style="max-width:200px; height:auto; border-radius:150px; border-color:#FFFFFF; margin:20px 0 8px 0; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
         <div>
          <h1>Welcome to the ePortfolio!</h1>
-          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. You can view the website I made for my capstone project, a pet adoption demo called AdoptMePls!, <a href="https://adoptmepls.vercel.app/">here</a>./</p>
+          <p style="align-text: left;">Hi! I'm Noelle. Here, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>. You can view the website I made for my capstone project, a pet adoption demo called AdoptMePls, <a href="https://adoptmepls.vercel.app/" target="_blank">here</a>.</p>
           <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
         </div>
       </div>
@@ -173,7 +173,7 @@ layout: home
           <h2>Original Artifact & Code Review</h2>
           <p>The capstone project is about taking an existing, finished object from prior coursework and enhancing it with the skills built since its completion. I chose my final project from CS-340 (Client Server Development) to enhance, in which I used Python, PyDash, and Jupyter Notebook to create a dashboard of available rescue animals for a fictional client.</p>
           <figure>
-            <img src="/assets/images/original_dashboard.png" style="width:800px">
+            <img src="/assets/images/original_dashboard.png" style="width:800px, height:500px">
             <figcaption>Original dashboard from CS-340</figcaption>
           </figure>
           <p>My capstone work sought to enhance the dashboard in three categories: software engineering & design, data structures & algorithms, and databases. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
@@ -190,18 +190,20 @@ layout: home
         <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <h4>The website</h4>
+        <p>View the latest iteration of AdoptMePls by following this link: https://adoptmepls.vercel.app/.</p>
+        <p>The website is housed on Render for the backend and Vercel for the frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
          <figure>
-            <img src="/assets/images/amp_home_1.png" style="width:800px">
+            <img src="/assets/images/amp_home_1.png" style="width:800px, height:500px">
             <figcaption>AdoptMePls! Home page</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_filters_applied.png" style="width:800px">
+            <img src="/assets/images/amp_filters_applied.png" style="width:800px, height:500px">
             <figcaption>AdoptMePls! Home page with filters and sorting applied</figcaption>
          </figure>
          <br>
          <figure>
-            <img src="/assets/images/amp_petdetails.png" style="width:800px">
+            <img src="/assets/images/amp_petdetails.png" style="width:800px, height:500px">
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
         <h4>Narrative</h4>
@@ -216,7 +218,7 @@ layout: home
         <p>Narrative goes here. . .</p>
         <h3>Databases - MongoDB</h3>
         <figure>
-            <img src="/assets/images/amp_database_document.PNG" style="width:800px">
+            <img src="/assets/images/amp_database_document.PNG" style="width:800px, height:500px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
         <p>Work in progress!</p>
