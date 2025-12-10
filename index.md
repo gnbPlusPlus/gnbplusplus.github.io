@@ -18,8 +18,8 @@ layout: home
     top: 0;
     left: 0;
     height: 100vh;
-    overflow-y: auto;
-    padding: 64px;
+    overflow-y: hidden;
+    padding: 70px 0 0 80px;;
     box-sizing: border-box;
   }
 
@@ -110,7 +110,7 @@ layout: home
     display: none;
     position: fixed;
     bottom: 20px;
-    left: 30px;
+    right: 30px;
     z-index: 99;
     font-size: 18px;
     background-color: #D98199;
