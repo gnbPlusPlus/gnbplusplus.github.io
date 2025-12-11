@@ -67,7 +67,7 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    text-indent: 5px;
+    text-indent: 50px;
   }
 
    figure {
@@ -231,7 +231,7 @@ layout: home
             <figcaption>Home & Pet Details pages wireframes</figcaption>
         </figure>
         <br>
-        <h4>The website</h4>
+        <h4>The Website</h4>
         <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes. The UI/UX research and design I performed informed the visual layout of the website and the contents of the database as I worked. Understanding the kinds of filter options users were looking for was crucial for creating a customizable experience that fulfilled user requirements.</p>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="width:600px, height:350px">
@@ -253,23 +253,37 @@ layout: home
         <p>This website is worthy of inclusion in my ePortfolio because it shows my experience with React, Flask, Python, JavaScript, HTML, and CSS, all of which are applicable skills toward my goal of working in web development. My cursory work with UI/UX design and research to prep for this project is also relevant to both developer and designer roles. Given the extensive changes that were made from the original dashboard, this website shows both my ability to reimagine an older piece of software with different tools <em>and</em> introduce changes to the software based on user research.</p>
         <p>As I spent time creating and improving this aspect of the project, I learned that 1) creating the skeleton of a full-stack app is relatively easy, but fleshing it out is hard, 2) I really enjoy working with React and CSS, and 3) rem (relative to root element) sizing should be used over px (pixel) sizing to create uniformity across browser screens. A lot of my time was spent adjusting items in CSS and figuring out how best to nest items and use class names to avoid redundant or confusing style rules. I often had to stop development to look through articles or tutorials for syntax and logic questions, especially because this was the largest project I'd made with React.</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
+         <p>Sorting pets based on how long they've been waiting for adoption was something that came up during the user interview and during my design process. I considered several popular algorithms for this task before settling on merge sort. It doesn't have the best runtime efficiency, but it's stable. I wrote the algorithm in Python, stored it in the backend, and used both the frontend sort buttons and the backend API call to pass the right information to the function.</p>
          <figure>
             <img src="/assets/images/amp_merge_sort.PNG" style="width:800px">
             <figcaption>Merge sort algorithm implemented in the backend</figcaption>
         </figure>
         <br>
-        <p>Work in progress!</p>
+        <figure>
+            <img src="/assets/images/amp_backend_sort_route.PNG" style="width:800px">
+            <figcaption>API call for sorting in the backend</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <img src="/assets/images/amp_frontend_sort_buttons.PNG" style="width:800px">
+            <figcaption>Sort buttons' onSort functions in frontend</figcaption>
+        </figure>
+        <br>
         <h4>Narrative (Describe, Justify, Reflect)</h4>
-        <p>Narrative goes here. . .</p>
+        <p>With this enhancement, the website gained two working sort buttons that link up to a backend merge sort algorithm. The buttons sort the animals from fewest days waiting for adoption (ascending order) to most days waiting for adoption (descending order). This part of the project was a work-in-progress for a few weeks, with development beginning in Mid-November, 2025, and continuing with the addition of the database (and the tweaks needed to accommodate it) in early December, 2025.</p>
+        <p>The specific enhancements for the algorithms category were as follows: the merge sort algorithm was included in sorting.py (backend), a route was established between the frontend and backend for sorting.py, an arrow function was added to Home.jsx to trigger the backend route, and buttons were added to FilterSection.jsx to send “asc” or “desc” to the sortPets functions to correlate with the “low to high” and “high to low” labels. Correctly implementing all of this demonstrates my ability to incorporate an appropriate algorithm for a full-stack application. Sorting is an oft-needed tool for websites, whether it’s a board game catalogue or pets waiting for adoption, and choosing an appropriate algorithm can make a difference in performance.</p>
+        <p>Writing the algorithm was straightforward, since thorough resources exist for merge sort, so figuring out how to hook everything up was the greater challenge. I knew I’d need an @app.route call. From there, I knew I’d need to set up a function in Home, since that’s where the buttons and list are, and finally, I knew I’d need buttons that respond appropriately to being clicked. In other words, I figured it out in pieces, starting from the baseline backend. The work I already completed in the software design & development category acted as a guide for syntax and general logic, since I already had buttons in Home.jsx that communicated with app.py. Because implementing the database was next, I took care to keep the sorting logic primarily in the backend where database communication would occur.</p>
         <h3>Databases - MongoDB</h3>
+        <p>For this enhancement, I created a MongoDB database</p>
         <figure>
             <img src="/assets/images/amp_database_document.PNG" style="width:800px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
         <br>
-        <p>Work in progress!</p>
         <h4>Narrative (Describe, Justify, Reflect)</h4>
-        <p>Narrative goes here. . .</p>
+        <p>The database was created in late November, 2025, based on the temporary “pets” list I’d created and used in app.py for prior enhancements. As development continued, animal entries were added, including ones with fields unique to their species (e.g., “hasHorns” for goats). All pet data seen on the Home and PetDetail pages is pulled from the database, and the filter and sorting buttons’ routes and logic were adjusted to match. Further, pet documents were given locations with latitude and longitude values from which distance (in miles) is calculated from a static user’s location (hardcoded to Atlanta, GA). For readability on the PetDetail page, the field “cityState” is used to represent the lat/lon values in words. Similarly, to create a more realistic depiction of sorting pets based on days waiting for adoption, the “intakeDate” field with its UTC date is used for the dynamic calculation of days a pet has been waiting for adoption.</p>
+        <p>I’d used MongoDB in prior courses, but I didn’t have the opportunity to create my own database. Although the database is relatively tiny, this experience boosted my confidence in using MongoDB, and it now exists as a sandbox to continue building my skills in. Having a working database linked up to a functional full stack app feels a lot more “real” than using a list in the backend, even if both produce visually similar results in the frontend. As for what's different, the original CS-340 dashboard artifact was all but completely overhauled. This enhancement was mostly about creating and implementing the database, but I also wanted to avoid mistakes of the original artifact by not displaying irrelevant information, such as whether a pet is deceased or not. Instead, both the Home and PetDetail pages organize and display relevant information to the user in a clear way using headings, sections, and padding.</p>
+        <p>Manually creating and updating the database documents was tedious, but once I got past that hurdle and successfully connected MongoDB to the backend, the main challenge was figuring out how to switch everything from using the temporary pets list to using the real database. To avoid redundant code, I created a separate function in app.py for processing each pet as its received. The process_pet function calculates aspects like days waiting for adoption, location in miles, and age range, giving the rest of the app clean variables like daysWaiting, ageRange, and location (rather than latitude/longitude) to work with. Frontend work came in the form of translating values "yes/no" to "true/false" to clear up discrepancies between filter options and their matching database values.</p>
       </div>
       <!-- Gardening App -->
       <!--div id="gardeningApp">
