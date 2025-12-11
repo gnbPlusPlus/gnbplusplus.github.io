@@ -187,12 +187,12 @@ layout: home
           <br>
           <p>My capstone work sought to enhance the dashboard in three categories: <strong>software engineering & design, data structures & algorithms, and databases</strong>. I set out by writing a detailed plan that addressed changes in each category, followed by a code review that scrutinized what, from the original project, could be kept, reimagined, or ignored.</p>
           <iframe width="800" height="575" src="https://www.youtube.com/embed/m9avatN3a-M" frameborder="1" allow="accelerometer" allowfullscreen></iframe>
-          <br>
        </div>
+       <br>
       <!-- Pet Adoption App -->
       <div id="petAdoptApp">
         <h2>Pet Adoption Website Demo</h2>
-        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website demo that demonstrates basic viewing, filtering, and sorting capabilities on a database of available pets.</p>
+        <p>In the spirit of the original project's theme, I reworked the dashboard into a pet adoption website demo that demonstrates basic viewing, filtering, and sorting capabilities on a database of available pets. View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/" target="_blank">https://adoptmepls.vercel.app</a>.</p>
         <p>To build my frontend and backend skills, I opted to work with frameworks that hadn't been covered by my schoolwork: React for the frontend and Flask for the backend. I reused MongoDB from the original project, since a nonrelational database makes the most sense for a group of pets with varying attributes, but made my own from scratch using MongoDB Atlas. Finally, sorting the pets is done using the merge sort algorithm to demonstrate my familiarity with choosing and using an appropriate algorithm given project and runtime considerations.</p> 
          <p>The enhancements made in each of the three major categories are discussed further below.</p>
         <h3>Software Design & Development - React + Flask</h3>
@@ -231,8 +231,7 @@ layout: home
         </figure>
         <br>
         <h4>The website</h4>
-        <p>View the latest iteration of <em>AdoptMePls</em> by following this link: <a href="https://adoptmepls.vercel.app/" target="_blank">https://adoptmepls.vercel.app</a>.</p>
-        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes.</p>
+        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes. The UI/UX research and design I performed informed the visual layout of the website and the contents of the database as I worked. Understanding the kinds of filter options users were looking for was crucial for creating a customizable experience that fulfilled user requirements.</p>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Home page</figcaption>
@@ -248,8 +247,10 @@ layout: home
             <figcaption>AdoptMePls! Pet details page</figcaption>
          </figure>
          <br>
-        <h4>Narrative</h4>
-        <p>Narrative goes here. . .</p>
+        <h4>Narrative (Describe, Justify, Reflect)</h4>
+        <p>The artifact is a functioning React + Flask web application (app) for a pet adoption service that expands greatly upon the original dashboard concept from my CS-340 project. Through research and user interviews, I found that images were important for pet browsing and eventual adoption, so I changed the dashboard design to be more visual than textual. I also added to the amount and types of filter options available for filtering pets in the database. The first iteration of this web app was created in Mid-November, 2025, and the latest iteration was completed in early-December, 2025.</p>
+        <p>This website is worthy of inclusion in my ePortfolio because it shows my experience with React, Flask, Python, JavaScript, HTML, and CSS, all of which are applicable skills toward my goal of working in web development. My cursory work with UI/UX design and research to prep for this project is also relevant to both developer and designer roles. Given the extensive changes that were made from the original dashboard, this website shows both my ability to reimagine an older piece of software with different tools <em>and</em> introduce changes to the software based on user research.</p>
+        <p>As I spent time creating and improving this aspect of the project, I learned that 1) creating the skeleton of a full-stack app is relatively easy, but fleshing it out is hard, 2) I really enjoy working with React and CSS, and 3) rem (relative element) sizing should be used over px (pixel) sizing to create uniformity across browser screens. A lot of my time was spent adjusting items in CSS and figuring out how best to nest items and use class names to avoid redundant or confusing style rules. I often had to stop development to look through articles or tutorials for syntax and logic questions, especially because this was the largest project I'd made with React.</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
          <figure>
             <img src="/assets/images/amp_merge_sort.PNG" style="width:800px">
@@ -257,7 +258,7 @@ layout: home
         </figure>
         <br>
         <p>Work in progress!</p>
-        <h4>Narrative</h4>
+        <h4>Narrative (Describe, Justify, Reflect)</h4>
         <p>Narrative goes here. . .</p>
         <h3>Databases - MongoDB</h3>
         <figure>
@@ -266,7 +267,7 @@ layout: home
         </figure>
         <br>
         <p>Work in progress!</p>
-        <h4>Narrative</h4>
+        <h4>Narrative (Describe, Justify, Reflect)</h4>
         <p>Narrative goes here. . .</p>
       </div>
       <!-- Gardening App -->
