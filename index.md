@@ -52,7 +52,7 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    text-indent: 50px;
+    text-indent: 25px;
   }
 
   body h1 {
@@ -199,30 +199,10 @@ layout: home
         <h3>Software Design & Development - React + Flask</h3>
         <h4>UI Design, UX Research</h4>
         <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
-        <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared five interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
+        <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared four interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <figure>
-            <img src="/assets/images/amp_ux_q1.PNG">
-            <figcaption>Interview Question 1 & Responses</figcaption>
-         </figure>
-         <br>
-         <figure>
-            <img src="/assets/images/amp_ux_q2.PNG">
-            <figcaption>Interview Question 2 & Responses</figcaption>
-         </figure>
-         <br>
-         <figure>
-            <img src="/assets/images/amp_ux_q3.PNG">
-            <figcaption>Interview Question 3 & Responses</figcaption>
-         </figure>
-         <br>
-         <figure>
-            <img src="/assets/images/amp_ux_q4.PNG">
-            <figcaption>Interview Question 4 & Responses</figcaption>
-         </figure>
-         <br>
-         <figure>
-            <img src="/assets/images/amp_ux_q5.PNG">
-            <figcaption>Interview Question 5 & Responses</figcaption>
+            <img src="/assets/images/amp_qs_consolidated.png">
+            <figcaption>Interview Questions & Responses</figcaption>
          </figure>
          <br>
         <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
@@ -232,7 +212,7 @@ layout: home
         </figure>
         <br>
         <h4>The Website</h4>
-        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I used Cron to ping the backend every 14 minutes. The UI/UX research and design I performed informed the visual layout of the website and the contents of the database as I worked. Understanding the kinds of filter options users were looking for was crucial for creating a customizable experience that fulfilled user requirements.</p>
+        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I use Cron to ping the backend every 14 minutes. The UI/UX research and design I performed informed the visual layout of the website and the contents of the database as I worked. Understanding the kinds of filter options users were looking for was crucial for creating a customizable experience that fulfilled user requirements.</p>
          <figure>
             <img src="/assets/images/amp_home_1.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Home page</figcaption>
@@ -274,7 +254,7 @@ layout: home
         <p>The specific enhancements for the algorithms category were as follows: the merge sort algorithm was included in sorting.py (backend), a route was established between the frontend and backend for sorting.py, an arrow function was added to Home.jsx to trigger the backend route, and buttons were added to FilterSection.jsx to send “asc” or “desc” to the sortPets functions to correlate with the “low to high” and “high to low” labels. Correctly implementing all of this demonstrates my ability to incorporate an appropriate algorithm for a full-stack application. Sorting is an oft-needed tool for websites, whether it’s a board game catalogue or pets waiting for adoption, and choosing an appropriate algorithm can make a difference in performance.</p>
         <p>Writing the algorithm was straightforward, since thorough resources exist for merge sort, so figuring out how to hook everything up was the greater challenge. I knew I’d need an @app.route call. From there, I knew I’d need to set up a function in Home, since that’s where the buttons and list are, and finally, I knew I’d need buttons that respond appropriately to being clicked. In other words, I figured it out in pieces, starting from the baseline backend. The work I already completed in the software design & development category acted as a guide for syntax and general logic, since I already had buttons in Home.jsx that communicated with app.py. Because implementing the database was next, I took care to keep the sorting logic primarily in the backend where database communication would occur.</p>
         <h3>Databases - MongoDB</h3>
-        <p>For this enhancement, I created a MongoDB database</p>
+        <p>For this enhancement, I created a MongoDB database of mock pets awaiting adoption. An example document is included, though not every document has the same fields.</p>
         <figure>
             <img src="/assets/images/amp_database_document.PNG" style="width:800px">
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
