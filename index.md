@@ -175,7 +175,12 @@ layout: home
        <!-- Professional Self-Assessment -->
        <div id="professionalSelfAssessment">
           <h2>Professional Self-Assessment</h2>
-          <p>write about prompts. . .</p>
+          <p>Throughout my computer science program, I watched myself grow in real-time. I went from not knowing how to declare a variable in C++ pre-program to building a full-stack web application (app) with database integration in just over two years. I credit this growth to the variety of projects I completed that built a foundation. It began with learning the basics of Python, which then paved the way for writing Java unit tests, writing user-friendly console programs in C++, training machine learning models with Keras, identifying and fixing security vulnerabilities in software, generating and translating assembly code, and learning best practices for programming. Finally, it ended with this self-directed capstone project, which applies my well-rounded foundation toward my aspirational fields: UI/UX design and full-stack development.</p>
+         <p>I was first introduced to UI/UX design in one of my 300-level courses, and I immediately felt called to the field. As a longtime digital design hobbyist, creating delightful UIs based on thoughtful UX research felt natural and fun. I often work alone on programming projects, so conducting user interviews and taking stock of feedback gives me opportunities to communicate with stakeholders and collaborate in a team-like environment, both of which are workforce-applicable skills. Even a rough wireframe and a handful of user stories, like the ones included in this capstone project, are enough to streamline development toward the non-negotiable features. That’s why, before a major project, I take the time to research similar software, conduct user interviews, sketch wireframes, and/or pick a color palette.</p>
+         <p>My coursework on the Scrum and Agile processes gave me more explicit practice with team collaboration and stakeholder communication. In that class, I worked with other students on discussion boards to roleplay Scrum roles. I played Scrum Master and worked to encourage and coordinate group roles and ideas. I also had the opportunity to create and adapt software based on mock stakeholders and changing user stories.</p>
+         <p>Other 200- and 300-level courses have honed my skills in software engineering, data structures and algorithms, databases, and security. CS-300 taught me the importance of considering runtime complexity when writing a program or implementing an algorithm. CS-340, the class which I modeled my capstone project after, gave me extensive practice with querying a large MongoDB database, indexing oft-queried fields, and creating aggregation pipelines. In several courses, I’ve learned how to create structures like objects or nodes that can then be reused throughout the program with functions and pointers. My course on mobile app architecture gave me hands-on experience with designing and developing an Android app called Planly that functioned as a simple event scheduling helper.</p>
+         <p>Finally, courses like CS-305, CS-320, CS-405, and CS-410 taught me about best practices for secure coding, test-driven development, and how to spot and correct vulnerabilities in code. Key takeaways have been to 1) always use up-to-date software, 2) implement multi-factor authentication as a minimal line of defense, 3) validate all input, 4) employ an unbroken encryption algorithm like SHA-256 where appropriate, and 5) avoid hardcoding sensitive data like user credentials.</p>
+         <p>The following section introduces the intent of the capstone project, the artifact from my coursework I chose to enhance, and the specific enhancements I did to create my website. Each enhancement category centers around the same original artifact to overhaul it into its own realized web app. My goals were to use web development libraries that hadn’t been covered by my coursework and get more hands-on practice with UI/UX processes, and I achieved both.</p>
        </div>
       <!-- Code Review -->
        <div id="codeReview">
@@ -205,9 +210,9 @@ layout: home
             <figcaption>Interview Questions & Responses</figcaption>
          </figure>
          <br>
-        <p>I gleaned four user stories from these responses to guide my development. With those and my other research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
+        <p>I gleaned three user stories from these responses to guide my development. With those and my other research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
         <figure>
-            <img src="/assets/images/amp_user_stories.png" style="width:800px">
+            <img src="/assets/images/amp_user_stories.png" style="width:800px, border:solid 4px black">
             <figcaption>User stories</figcaption>
         </figure>
         <br>
@@ -245,7 +250,7 @@ layout: home
         </figure>
         <br>
         <figure>
-            <img src="/assets/images/amp_backend_sort_route.PNG" style="width:800px">
+            <img src="/assets/images/amp_backend_sort_route.PNG" style="width:800px, border:solid 4px black">
             <figcaption>API call for sorting in the backend</figcaption>
         </figure>
         <br>
