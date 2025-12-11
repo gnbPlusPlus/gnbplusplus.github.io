@@ -67,6 +67,7 @@ layout: home
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    text-indent: 5px;
   }
 
    figure {
@@ -250,7 +251,7 @@ layout: home
         <h4>Narrative (Describe, Justify, Reflect)</h4>
         <p>The artifact is a functioning React + Flask web application (app) for a pet adoption service that expands greatly upon the original dashboard concept from my CS-340 project. Through research and user interviews, I found that images were important for pet browsing and eventual adoption, so I changed the dashboard design to be more visual than textual. I also added to the amount and types of filter options available for filtering pets in the database. The first iteration of this web app was created in Mid-November, 2025, and the latest iteration was completed in early-December, 2025.</p>
         <p>This website is worthy of inclusion in my ePortfolio because it shows my experience with React, Flask, Python, JavaScript, HTML, and CSS, all of which are applicable skills toward my goal of working in web development. My cursory work with UI/UX design and research to prep for this project is also relevant to both developer and designer roles. Given the extensive changes that were made from the original dashboard, this website shows both my ability to reimagine an older piece of software with different tools <em>and</em> introduce changes to the software based on user research.</p>
-        <p>As I spent time creating and improving this aspect of the project, I learned that 1) creating the skeleton of a full-stack app is relatively easy, but fleshing it out is hard, 2) I really enjoy working with React and CSS, and 3) rem (relative element) sizing should be used over px (pixel) sizing to create uniformity across browser screens. A lot of my time was spent adjusting items in CSS and figuring out how best to nest items and use class names to avoid redundant or confusing style rules. I often had to stop development to look through articles or tutorials for syntax and logic questions, especially because this was the largest project I'd made with React.</p>
+        <p>As I spent time creating and improving this aspect of the project, I learned that 1) creating the skeleton of a full-stack app is relatively easy, but fleshing it out is hard, 2) I really enjoy working with React and CSS, and 3) rem (relative to root element) sizing should be used over px (pixel) sizing to create uniformity across browser screens. A lot of my time was spent adjusting items in CSS and figuring out how best to nest items and use class names to avoid redundant or confusing style rules. I often had to stop development to look through articles or tutorials for syntax and logic questions, especially because this was the largest project I'd made with React.</p>
         <h3>Data Structures & Algorithms - Merge Sort</h3>
          <figure>
             <img src="/assets/images/amp_merge_sort.PNG" style="width:800px">
