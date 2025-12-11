@@ -47,6 +47,14 @@ layout: home
     display: block;
   }
 
+  .rightColumn p {
+    font-family: "TASA Orbiter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-indent: 50px;
+  }
+
   body h1 {
     font-optical-sizing: auto;
     font-weight: 800;
@@ -60,14 +68,6 @@ layout: home
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-  }
-
-  body p {
-    font-family: "TASA Orbiter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    text-indent: 50px;
   }
 
    figure {
