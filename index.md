@@ -198,14 +198,19 @@ layout: home
          <p>The enhancements made in each of the three major categories are discussed further below.</p>
         <h3>Software Design & Development - React + Flask</h3>
         <h4>UI Design, UX Research</h4>
-        <p>First, I looked at similar services from both PetFinder and a local animal adoption service, Mountain Pet Rescue. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
+        <p>First, I looked at similar websites from national and local animal adoption services. I took note of the features they had and how those features were arranged. For example, both websites displayed available pets in individual "cards" in a grid and had extensive filtering options for qualities like breed, age, and size. I liked both of these aspects, so I knew I wanted to include the same ideas in my design.</p> 
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I prepared four interview questions that homed in on the importance of images and filters when using an adoption service and conducted informal interviews with three potential users. The answers to these questions have been paraphrased below.</p>
         <figure>
             <img src="/assets/images/amp_qs_consolidated.png">
             <figcaption>Interview Questions & Responses</figcaption>
          </figure>
          <br>
-        <p>From these responses and my research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
+        <p>I gleaned four user stories from these responses to guide my development. With those and my other research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet details" page that a user visits when clicking on a pet.</p>
+        <figure>
+            <img src="/assets/images/amp_user_stories.png" style="width:800px">
+            <figcaption>User stories</figcaption>
+        </figure>
+        <br>
         <figure>
             <img src="/assets/images/amp_wireframes.PNG" style="width:800px">
             <figcaption>Home & Pet Details pages wireframes</figcaption>
@@ -264,6 +269,18 @@ layout: home
         <p>The database was created in late November, 2025, based on the temporary “pets” list I’d created and used in app.py for prior enhancements. As development continued, animal entries were added, including ones with fields unique to their species (e.g., “hasHorns” for goats). All pet data seen on the Home and PetDetail pages is pulled from the database, and the filter and sorting buttons’ routes and logic were adjusted to match. Further, pet documents were given locations with latitude and longitude values from which distance (in miles) is calculated from a static user’s location (hardcoded to Atlanta, GA). For readability on the PetDetail page, the field “cityState” is used to represent the lat/lon values in words. Similarly, to create a more realistic depiction of sorting pets based on days waiting for adoption, the “intakeDate” field with its UTC date is used for the dynamic calculation of days a pet has been waiting for adoption.</p>
         <p>I’d used MongoDB in prior courses, but I didn’t have the opportunity to create my own database then. Although the database here is relatively tiny, making my own boosted my confidence in using MongoDB, and it now exists as a sandbox to continue building my skills in. Having a working database linked up to a functional full stack app feels a lot more “real” than using a list in the backend, even if both produce visually similar results in the frontend. As for what's different, the original CS-340 dashboard artifact was all but completely overhauled. This enhancement was mostly about creating and implementing the database, but I also wanted to avoid mistakes of the original artifact by not displaying irrelevant information, such as whether a pet is deceased or not. Instead, both the Home and PetDetail pages organize and display relevant information to the user in a clear way using headings, sections, and padding.</p>
         <p>Manually creating and updating the database documents was tedious, but once I got past that hurdle and successfully connected MongoDB to the backend, the main challenge was figuring out how to switch everything from using the temporary pets list to using the real database. To avoid redundant code, I created a separate function in app.py for processing each pet as its received. The process_pet function calculates aspects like days waiting for adoption, location in miles, and age range, giving the rest of the app clean variables like daysWaiting, ageRange, and location (rather than latitude/longitude) to work with. Frontend work came in the form of translating values "yes/no" to "true/false" to clear up discrepancies between filter options and their matching database values.</p>
+        <h3>Bonus - Pytests and Security Measures</h3>
+        <p>With the first version of the website complete, my stretch goal for the capstone was to correctly set up, run, and pass a handful of Pytests in the backend. I performed some simple tests using a mock database document to 1) test the API call to retrieve all pets and 2) the sorting algorithm's accurate ascending/descending order sort. Other security-minded measures include securing my website's URL with HTTPS (thanks to Vercel), obscuring the MongoDB access credentials rather than hardcoding them, and implementing exception catching in the backend.</p>
+         <figure>
+            <img src="/assets/images/backend_test_sorting.png" style="width:800px">
+            <figcaption>Pytest that checks sorting logic</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <img src="/assets/images/backend_tests_passed.png" style="width:800px">
+            <figcaption>All Pytests passed!</figcaption>
+        </figure>
+        <br>
       </div>
       <!-- Gardening App -->
       <!--div id="gardeningApp">
