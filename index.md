@@ -238,13 +238,28 @@ layout: home
          </figure>
          <br>
          <figure>
+            <img src="/assets/images/amp_all_pets_frontend.PNG" style="width:600px, height:350px">
+            <figcaption>Filtered pets are mapped to each pet card</figcaption>
+         </figure>
+         <br>
+         <figure>
             <img src="/assets/images/amp_filters_applied.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Home page with filters and sorting applied</figcaption>
          </figure>
          <br>
          <figure>
+            <img src="/assets/images/amp_filter_logic_frontend.PNG" style="width:600px, height:350px">
+            <figcaption>Dropdown values are mapped to each filter button</figcaption>
+         </figure>
+         <br>
+         <figure>
             <img src="/assets/images/amp_petdetails.png" style="width:600px, height:350px">
             <figcaption>AdoptMePls! Pet Detail page</figcaption>
+         </figure>
+         <br>
+         <figure>
+            <img src="/assets/images/amp_fetching_single_pet.PNG" style="width:600px, height:350px">
+            <figcaption>A single pet is fetched for the Pet Detail page based on its ID</figcaption>
          </figure>
          <br>
         <h4>Narrative</h4>
