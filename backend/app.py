@@ -16,9 +16,8 @@ def create_app():
     app = Flask(__name__)
     CORS(app)
 
+    # Create MongoDB client and connect to database...certain parts obscured for security purposes
     app.mongo_client = create_mongo_client()
-    app.db = app.mongo_client["adoptmepls-database"]
-    app.pets = app.db["pets"]
 
     @app.errorhandler(Exception)
     def handle_exception(e):
@@ -64,11 +63,7 @@ def create_app():
     return app
 
 def create_mongo_client():
-    # MongoDB Atlas connection string
-    uri = os.environ.get("MONGO_URI")
-
-    # Create a new client, connect to the server
-    client = MongoClient(uri, server_api=ServerApi('1'))
+    # Create MongoDB client and connect to database...obscured for security purposes
 
     # Send a ping to confirm successful connection to database
     try:
@@ -153,4 +148,5 @@ def process_pet(pet):
 if __name__ == '__main__':
     app = create_app()
     port = int(os.environ.get("PORT", 5000))
+
     app.run(host="0.0.0.0", port=port)
