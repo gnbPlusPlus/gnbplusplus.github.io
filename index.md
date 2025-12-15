@@ -229,7 +229,7 @@ layout: home
         </figure>
         <br>
         <h4>The Website</h4>
-        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I use Cron to ping the backend every 14 minutes.</p>
+        <p>The website is housed on Render for the Flask backend and Vercel for the React frontend. To keep the Render backend active, since following the frontend link doesn't ping it, I use Cron to ping the backend every 14 minutes. To view some of the major frontend/backend files on Github, please visit the respository <a href="https://github.com/gnbPlusPlus/gnbplusplus.github.io" target="_blank">here</a>.</p>
         <p>The UI/UX research and design I performed informed the visual layout of the website and the contents of the database as I worked. Understanding the kinds of filter options users were looking for was crucial for creating a customizable experience that fulfilled requirements.</p>
         <p>Later on, and described in its own section, I added Pytests to confirm backend functionality, set up the website on an external URL with HTTPS protection, and incorporated try/except blocks to catch errors.</p>
          <figure>
