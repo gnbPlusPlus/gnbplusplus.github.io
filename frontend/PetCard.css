@@ -1,0 +1,38 @@
+/* The pet listings on the Home page, displayed as "cards" 
+ * Resource used here & throughout: https://www.w3schools.com/howto/howto_css_cards.asp */
+.pet_card {
+    width: 100%;
+    max-width: 14.5rem;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 1.563rem;
+    background-image: linear-gradient(315deg, #a4dcff 0%, #c2f0ff 74%);
+    padding: 0.625rem;
+    text-align: center;
+}
+
+.pet_card_name {
+    font-size: clamp(1.0625rem, 2vw, 1.25rem);
+    font-family: 'Gorditas', serif;
+    color: white;
+    text-shadow: 0.125rem 0.125rem 0.25rem #0063a0;
+}
+
+.pet_card_description {
+    font-family: "Vend Sans", sans-serif;
+    color: black;
+    font-size: clamp(1rem, 2vw, 1.0625rem); /* Resource used: https://www.geeksforgeeks.org/css/how-to-make-css-font-size-fit-container-effectively/ */
+}
+
+.pet_photo {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 1.25rem 1.25rem 0 0;
+    border-bottom: 0.125rem dashed #000000;
+}
+
+.pet_card:hover {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}

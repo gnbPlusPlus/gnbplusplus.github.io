@@ -1,0 +1,74 @@
+/* General structure of Home page */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Filter section and pet cards, collectively */
+.body_content {
+    display: flex;
+    flex: 1;
+    padding: 1.25rem;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Pet cards area */
+.cards_container {
+    flex: 1;
+    padding: 1.25rem;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*
+.search_bar_container {
+    margin-bottom: 20px;
+}
+
+.search_bar {
+    padding: 9px;
+    margin-right: 750px;
+    font-size: clamp(13px, 2vw, 15px);
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-style: italic;
+    font-family: "Vend Sans", sans-serif;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+
+.search_bar:focus {
+    outline: none;
+    font-style: normal;
+}
+
+.search_button {
+    margin-right: 10px;
+    padding: 9px 15px;
+    font-size: clamp(13px, 2vw, 15px);
+    border-radius: 15px;
+    border: none;
+    background-color: #a4dcff;
+    color: black;
+    cursor: pointer;
+    font-family: "Vend Sans", sans-serif;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+
+*/
+
+/* Specific pet cards */
+.pet_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    justify-content: start;
+    gap: 1rem;
+}

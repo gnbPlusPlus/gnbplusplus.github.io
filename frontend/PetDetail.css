@@ -1,0 +1,149 @@
+/* I needed a refresher on CSS Flexbox for all this! I used the tutorials in this resource: https://www.w3schools.com/csS/css3_flexbox_container.asp*/
+
+.top_bar {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.back_button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid;
+    border-color: #ffffff;
+    background-color: white;
+    cursor: pointer;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    width: 6rem;
+    margin: 0.5rem 0 0 0;
+    font-family: "Delius", cursive;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+    align-self: flex-start;
+    z-index: 10;
+}
+
+.back_button:hover {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+/* Overall container for everything on this page (i.e., the blue box) */
+.pet_detail_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    max-width: 80rem;
+    margin: auto;
+    gap: 1.25rem;
+    background-image: linear-gradient(315deg, #a4dcff 0%, #c2f0ff 74%);
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+/* Contains the photo and "basic info" parts */
+.pet_details_top_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0.5rem;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+}
+
+.pet_details_photo {
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+    border-radius: 0.625rem;
+    object-fit: cover;
+    border: 0.25rem dotted rgb(255, 249, 215);
+    box-shadow: 0 0 1rem 0.0625rem rgb(255, 249, 215);
+}
+
+.pet_details_name {
+    font-size: clamp(1.875rem, 2vw, 2.25rem);
+    font-family: 'Gorditas', serif;
+    padding-left: 0.125rem;
+}
+
+.pet_details_subtag {
+    padding-left: 0.25rem;
+}
+
+.pet_details_location {
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    color: rgb(78, 78, 78);
+    margin-bottom: 0.625rem;
+    margin-left: 0.625rem;
+}
+
+/* The list separated by dots just above the description...and the container for the description*/
+.basic_pet_info {
+    flex: 1 1 0;
+    min-width: 0;  
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    border-color: rgba(255, 255, 255, 0);
+    font-family: "Vend Sans", sans-serif;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    box-sizing: border-box;
+}
+
+.pet_details_description {
+    border: solid;
+    border-color: #ffc0ec;
+    border-radius: 0.625rem;
+    height: auto;
+    min-height: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.3125rem;
+    text-align: left;
+    background-color: #ffc0ec;
+    font-family: "Vend Sans", sans-serif;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+/* Bottom section container, where the 3 bolded categories are */
+.additional_pet_info_container {
+    padding-top: 0.625rem;
+    border-top: 0.0625rem solid #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+/* Individual box or container for each "additional info" category */
+.additional_info_box {
+    flex: 1 1 15.625rem;
+    background-color: #fdfdfd;
+    border-radius: 0.9375rem;
+    padding: 0.5rem;
+    box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,0.1);
+    font-family: "Vend Sans", sans-serif;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+    box-sizing: border-box;
+}
+
+/* Title for each "additional info" category, like "Personality" */
+.additional_info_box h3 {
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    border-radius: 0.9375rem 0.9375rem 0 0;
+    border-bottom: dashed 0.125rem #fda3e2;
+    padding: 0.5rem;
+    background-color: #ffc0ec;
+    font-family: "Delius", cursive;
+}

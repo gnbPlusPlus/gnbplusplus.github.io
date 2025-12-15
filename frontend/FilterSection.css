@@ -1,0 +1,167 @@
+/* Filter section at large (all buttons, items) */
+.filter_sidebar {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 13.5rem;
+    margin-top: 0.313rem;
+    box-sizing: border-box;
+}
+
+/* Section that houses the actual filter type buttons (the ones below "Reset Filters") */
+.filter_section {
+    display: grid;
+    margin-top: 0.75rem;
+    grid-template-columns: 1fr;
+    gap: 0.625rem 0;
+    width: 100%;
+}
+
+/* Part of the formatting for the dropdown menus */
+.filter_button {
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    font-family: "Vend Sans", sans-serif;
+}
+
+/* The actual buttons for each filter type */
+.filter_button button {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    color: black;
+    background-color: #ffffff;
+    border: 0.125rem solid #ffffff;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Vend Sans", sans-serif;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.filter_button button:hover {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+.filter_button button:active {
+    background-color: #f0f0f0;
+    border-color:#f0f0f0;
+}
+
+/* The label that says "Filters" above the filter section
+.filter_heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 0.9375rem;
+    color: black;
+    border: solid;
+    border-color: white;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    padding: 0.3125rem;
+    background-color: white;
+}
+*/
+
+.reset_filters_button {
+    width: fit-content;
+    padding: 0.25rem 0.9375rem 0.25rem 0.9375rem;
+    margin: 0.9375rem auto auto auto;
+    background-color: #a4dcff;
+    border: 0.063rem solid #a4dcff;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,0.2);
+    font-family: "Vend Sans", sans-serif;
+}
+
+.reset_filters_button:hover {
+    background-color: #9ad6fc;
+    border-color: #9ad6fc;
+}
+
+.reset_filters_button:active {
+    background-color: #8ecffc;
+}
+
+.shortest_wait_button {
+    width: fit-content;
+    padding: 0.25rem 0.9375rem 0.25rem 0.9375rem;
+    margin: 0.5rem auto auto auto;
+    background-color: #fda3e2;
+    border: 0.063rem solid #fda3e2;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+    color: black;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+    font-style: italic;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,0.2);
+    font-family: "Vend Sans", sans-serif;
+}
+
+.shortest_wait_button:hover {
+    background-color: #fc9bdf;
+}
+
+.longest_wait_button {
+    width: fit-content;
+    padding: 0.25rem 0.9375rem 0.25rem 0.9375rem;
+    margin: 0.5rem auto auto auto;
+    background-color: #fda3e2;
+    border: 0.063rem solid #fda3e2;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+    color: black;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+    font-style: italic;
+    box-shadow: 0 0.125rem 0.1875rem 0 rgba(0,0,0,0.2);
+    font-family: "Vend Sans", sans-serif;
+}
+
+.longest_wait_button:hover {
+    background-color: #fc9bdf;
+}
+
+.shortest_wait_button.active,
+.longest_wait_button.active {
+    background-color: #fa85d7;
+    border-color: #fa85d7;
+}
+
+/* The blob of applied filters that appears once user starts selecting some
+.applied_filters_summary {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 8px;
+    margin-left: 9px;
+}
+
+*/
+
+/* The individual applied filter in the summary
+.applied_filter_tag {
+    background-color: #a4dcff;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'TASA Orbiter', sans-serif;
+}
+*/

@@ -1,0 +1,42 @@
+/* Dropdown menu as a whole for each filter type */
+.dropdown_menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background: white;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.938rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.15);
+    z-index: 1000;
+}
+
+/* Individual dropdown menu items */
+.dropdown_menu li {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    color:black;
+    box-sizing: border-box;
+    border-bottom: 0.063rem solid #d3d2d2;
+}
+
+.dropdown_menu li:first-child {
+    border-radius: 0.938rem 0.938rem 0 0;
+}
+
+/* Set the last dropdown menu item to not have a border (looks nicer that way) */
+.dropdown_menu li:last-child {
+    border-bottom: none;
+    border-radius: 0 0 0.938rem 0.938rem;
+}
+
+.dropdown_menu li:hover {
+    background-color: #fafafa;
+}
+
+.dropdown_menu li:active {
+    background-color: #f0efef;
+}
