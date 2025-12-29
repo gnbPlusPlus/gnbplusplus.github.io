@@ -19,7 +19,7 @@ layout: home
     left: 0;
     height: 100vh;
     overflow-y: auto;
-    padding: 70px 0 0 75px;;
+    padding: 65px 0 0 75px;;
     box-sizing: border-box;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -335,11 +335,6 @@ layout: home
         <p>Because the final wireframe is so large, I recommend right-clicking the images and selecting "Open image in new tab" to view them in higher definition and zoom in more easily.</p>
         <h3>Realized Design - High Fidelity Wireframe</h3>
         <figure>
-           <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
-           <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
-        </figure>
-        <br>
-        <figure>
            <img src="/assets/images/gardening_app_wireframe_top.png" style="max-width:800px">
            <figcaption>Top of gardening app wireframe (zoomed in)</figcaption>
         </figure>
@@ -347,6 +342,11 @@ layout: home
         <figure>
            <img src="/assets/images/gardening_app_wireframe_bottom.png" style="max-width:800px">
            <figcaption>Bottom of gardening app wireframe (zoomed in)</figcaption>
+        </figure>
+        <br>
+        <figure>
+           <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
+           <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
         </figure>
         <br>
         <h3>Step 1 - First round of user interviews based on story</h3>
