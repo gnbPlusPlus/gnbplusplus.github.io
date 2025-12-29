@@ -155,7 +155,7 @@ layout: home
          <h1>Welcome to the ePortfolio!</h1>
           <p>Hi! I'm Noelle. In this ePortfolio, I showcase my best academic work in <strong>UI design, UX research, and full-stack web development</strong>.</p>
           <p>You can view the website I made for my capstone project, a pet adoption demo called <em>AdoptMePls</em>, <a href="https://adoptmepls.vercel.app/" target="_blank">here</a>.</p>
-          <p>I graduate summa cum laude with a bachelor's degree in computer science in late December 2025.</p>
+          <p>I graduated summa cum laude with a bachelor's degree in computer science in December 2025.</p>
         </div>
       </div>
       <hr>
