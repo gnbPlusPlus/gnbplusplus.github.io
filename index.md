@@ -169,6 +169,7 @@ layout: home
            <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website Demo</span></a></li>
            <li><a href="#gardeningAppDesign" class="button"><span class="linkText">Gardening Mobile App Design</span></a></li>
            <li><a href="#pulseAppRedesign" class="button"><span class="linkText">Pulse App Page Re-Design</span></a></li>
+           <li><a href="#kivaAppFlipphoneDesign" class="button"><span class="linkText">Kiva LoanHub App Design</span></a></li>
          </ul>
       </div>
     </div>
@@ -215,7 +216,7 @@ layout: home
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I conducted informal interviews with potential users that homed in on the importance of images and filters when using a pet adoption service. Interviewees' answers have been paraphrased below.</p>
         <figure>
             <img src="/assets/images/amp_qs_consolidated.png">
-            <figcaption>Interview Questions & Responses</figcaption>
+            <figcaption>Interview questions & responses</figcaption>
          </figure>
          <br>
         <p>I gleaned three user stories from these responses to guide my development. With those and my other research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet detail" page that would appear when a pet card is clicked.</p>
@@ -226,7 +227,7 @@ layout: home
         <br>
         <figure>
             <img src="/assets/images/amp_wireframes.PNG" style="width:800px">
-            <figcaption>Home & Pet Detail pages wireframes</figcaption>
+            <figcaption>Home & PetDetail pages wireframes</figcaption>
         </figure>
         <br>
         <h4>The Website</h4>
@@ -255,7 +256,7 @@ layout: home
          <br>
          <figure>
             <img src="/assets/images/amp_petdetails.png" style="width:600px, height:350px">
-            <figcaption>AdoptMePls! Pet Detail page</figcaption>
+            <figcaption>AdoptMePls! PetDetail page</figcaption>
          </figure>
          <br>
          <figure>
@@ -331,8 +332,6 @@ layout: home
       <div id="gardeningAppDesign">
         <h2>Gardening Mobile App Design - Lucidchart</h2>
         <p>Description of project, purpose</p>
-        <h3>Low Fidelity Wireframe</h3>
-        <p>Work in progress!</p>
         <h3>High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
@@ -340,11 +339,21 @@ layout: home
         </figure>
       </div>
       <div id="pulseAppRedesign">
-        <h2>Pulse App Page Re-Design</h2>
+        <h2>Pulse App Page Re-Design - Figma</h2>
         <p>Description of project, purpose</p>
+        <h3>High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/pulse_app_redesign.png" style="max-width:800px">
-           <figcaption>Labeled, full color redesign for</figcaption>
+           <figcaption>Labeled, full color redesign for Pulse "course module" screen</figcaption>
+        </figure>
+      </div>
+      <div id="kivaAppFlipphoneDesign">
+        <h2>Kiva LoanHub App Design - Lucidchart</h2>
+        <p>Description of project, purpose</p>
+        <h3>High Fidelity Wireframe</h3>
+        <figure>
+           <img src="/assets/images/kiva_flipphone_wireframe.png" style="max-width:800px">
+           <figcaption>Labeled, full color design for main screens of LoanHub</figcaption>
         </figure>
       </div>
     </div>
