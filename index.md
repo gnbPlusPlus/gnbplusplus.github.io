@@ -216,13 +216,13 @@ layout: home
         <p>These services were much more visual and customizable than my original project, especially in their use of photos, colors, and filter combinations, so I conducted informal interviews with potential users that homed in on the importance of images and filters when using a pet adoption service. Interviewees' answers have been paraphrased below.</p>
         <figure>
             <img src="/assets/images/amp_qs_consolidated.png">
-            <figcaption>Interview questions & responses</figcaption>
+            <figcaption>AdoptMePls interview questions & responses</figcaption>
          </figure>
          <br>
         <p>I gleaned three user stories from these responses to guide my development. With those and my other research, I had enough information to design the UI. I created rough wireframes for the home page and the "pet detail" page that would appear when a pet card is clicked.</p>
         <figure>
             <img src="/assets/images/amp_user_stories.png" style="width:800px, border:solid 4px black">
-            <figcaption>User stories</figcaption>
+            <figcaption>AdoptMePls user stories</figcaption>
         </figure>
         <br>
         <figure>
@@ -331,16 +331,63 @@ layout: home
       <!-- Gardening App -->
       <div id="gardeningAppDesign">
         <h2>Gardening Mobile App Design - Lucidchart</h2>
-        <p>Description of project, purpose</p>
-        <h3>High Fidelity Wireframe</h3>
+        <p>For the term-long project in my UI/UX design course (CS-319), I incrementally developed the design for a gardening app based on an overarching user story, app research, two rounds of user interviews, low fidelity wireframes, and feedback gathering sessions. From user interviews came two distinct personas. From those personas came low level wireframes. From those wireframes came feedback from the interviewed users and my classmates. Finally, from everything came the high fidelity wireframe showcased first below. Feel free to continue scrolling past it to view the steps I took along the way.</p>
+        <h3>Realized Design - High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
         </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_wireframe_top.png" style="max-width:800px">
+           <figcaption>Top of gardening app wireframe (zoomed in)</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_wireframe_bottom.png" style="max-width:800px">
+           <figcaption>Bottom of gardening app wireframe (zoomed in)</figcaption>
+        </figure>
+        <h3>Step 1 - First round of user interviews based on story</h3>
+        <p>The user story for this project was as follows: <em>“As a grower, I want to view a dashboard that informs me of the moisture content and nitrogen level in the soil at each of my trees so that I can easily target water use and track nitrogen levels.”</em> From this, I developed an interview document that probed potential early adopters for more app requirements.</p>
+        <figure>
+           <img src="/assets/images/gardening_app_user_qs_1.png" style="max-width:800px">
+           <figcaption>Gardening app interview questions & responses (1)</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_user_qs_2.png" style="max-width:800px">
+           <figcaption>Gardening app interview questions & responses (2)</figcaption>
+        </figure>
+        <h3>Step 2 - Personas</h3>
+        <p>From the user interviews emerged two distinct personas, "The Intermediate" and "The Long-Time Casual". I personify them with both a summary and a tagline quote.</p>
+        <h2>"The Intermediate" Persona</h2>
+        <p>Sapphire is a 29-year-old college graduate, works from home as a UI/UX Designer, lives with her partner, does not have children, and rents an apartment for about $1,500/month in a climate that experiences some snow. Collectively, she and her partner make about $80,000/year.</p>
+        <p>She has an intermediate level of experience when it comes to gardening, maintaining two small gardens: one indoor and one outdoor. She grows tomatoes year-round in her indoor garden and opts for common seasonal crops like peppers and broccoli that are well-suited to grow in planters (instead of in-ground). She also grows some flowers to help encourage pollinators, like bees, to visit in the outdoor space. Sapphire is the primary caretaker of the gardens, and would be the primary user of the app, but her partner might be the one to water and fertilize when they’re working together or when Sapphire is busy. She is an iOS user and might download the app on her iPhone or iPad, both of which her partner can also access for using the app in her stead.</p>
+        <p>Sapphire’s goals for the app include better garden management and furthered plant education. She has struggled with growing certain crops, like onions, in the past and would like to avoid repeating mistakes that lead to plant death. Knowing when to water, fertilize, and rearrange given varying moisture, nitrogen, phosphorus, pH, NPK, temperature, sunlight, and humidity levels would equip her with insights needed to adjust for her plants’ optimal health. Further, having built-in educational materials and estimations of when to water/fertilize next for each plant she grows would inform her, allowing her to differentiate her tactics and increase her skill.</p>
+        <p><em>“I want a gardening app that not only does the tedious work of logging all of my plants’ data but also helps make me a better gardener. I value a straightforward design that gives me information as quickly as possible and keeps it all organized to avoid clutter. As someone who looks at screens for a living, I need to be able to set the app to dark mode for less eye strain.”</em></p>
+        <h2>"The Long-Time Casual" Persona</h2>
+        <p>Eloise is a 54-year-old high-school math teacher with a bachelor’s degree and teaching certification. She plans on retiring within the next 15 years and lives with her spouse in a warm, snow-less climate in a house they own. Her children are adults and live in different parts of the country, making Eloise and her spouse “empty nesters”. Collectively, her household makes about $100,000/year.</p>
+        <p>Eloise and her spouse have cared for outdoor plants for many years, thanks to the warm climate, but are often reliant on “outdoor causes” such as rain and continued warm weather to keep the plants alive. Eloise often forgets to water her plants unless she sets a reminder on her phone, and beyond watering, she does not fertilize or consider other factors for growth. Her spouse behaves similarly. They mainly grow decorative, long-term plants like bougainvillea, elephant ear plants, and small rubber trees, but they also maintain aloe vera succulents and use their gel to treat sunburns. Eloise uses an Android OS smartphone, and because she already uses it to set watering reminders, she would continue to use it for this app. She’s comfortable using her smartphone but gets easily confused by apps with overly complicated interfaces, so simplicity is a must.</p>
+        <p>Although Eloise has been a casual gardener for many years, and the favorable weather often takes care of her plants for her, she would like to improve her skills and branch out to edible crops like herbs. She wants an app that will teach her about proper moisture ranges for her different plants (and new ones) and remind her when to water only when her plants need moisture. Reminders are a must, thanks to her forgetfulness, and she would like to be able to set a time range for when reminders trigger—that way, she doesn’t get a notification (and promptly forget about it) while she’s at work and can’t respond.</p>
+        <p><em>“I love having plants around in my front and back yards because, well, that’s what I’ve always done. It would be nice to grow edible plants that complement my cooking instead of only growing what’s convenient. An app that takes the guesswork out and tells me when my plants need water would be like my own personal helper! I think shades of green, blue, and grey with magenta accents would make it lovely to browse through.”</em></p>
+        <h3>Step 3 - Low Fidelity Wireframes</h3>
+        <figure>
+           <img src="/assets/images/gardening_app_low1.png" style="max-width:800px">
+           <figcaption>Gardening app dashboard (home) screen wireframe</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_low2.png" style="max-width:800px">
+           <figcaption>Gardening app detailed plant screen wireframe</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_low3.png" style="max-width:800px">
+           <figcaption>Gardening app plant library screen wireframe</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/gardening_app_low4.png" style="max-width:800px">
+           <figcaption>Gardening app settings screen wireframe</figcaption>
+        </figure>
       </div>
       <div id="pulseAppRedesign">
         <h2>Pulse App Page Re-Design - Figma</h2>
-        <p>Description of project, purpose</p>
+        <p>In my Android Studio mobile development course (CS-360), I was tasked with redesigning one page from an existing app. I chose Pulse, the app used by my school for distributing mobile learning management system (LMS) content. While the app was functional and fine as-is, I set out to re-design its "course module" screen by (1) making the UI more aesthetically pleasant and (2) adding more details and navigability.</p>
         <h3>High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/pulse_app_redesign.png" style="max-width:800px">
@@ -349,11 +396,19 @@ layout: home
       </div>
       <div id="kivaAppFlipphoneDesign">
         <h2>Kiva LoanHub App Design - Lucidchart</h2>
-        <p>Description of project, purpose</p>
+        <p>This work came from my UI/UX design course (CS-319). <a href="https://www.kiva.org/" target="_blank">Kiva</a> is an existing lending software that allows users to loan money to people in need. My task was to design a flip-phone-accessible mobile app that gave borrowers (i.e., users in need of loans) the ability to create and view loan requests with appropriate amounts of details for their and their loaners' needs. I studied loan requests on Kiva's website to glean the most important details for the smaller, limited flip-phone version to retain. I also thought it important to include general details about Kiva for the borrower to access, as this app assumes a lack of PC browser access.</p>
         <h3>High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/kiva_flipphone_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color design for main screens of LoanHub</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/kiva_flipphone_wireframe_left.png" style="max-width:800px">
+           <figcaption>Left side of LoanHub wireframe (zoomed in)</figcaption>
+        </figure>
+        <figure>
+           <img src="/assets/images/kiva_flipphone_wireframe_right.png" style="max-width:800px">
+           <figcaption>Right side of LoanHub wireframe (zoomed in)</figcaption>
         </figure>
       </div>
     </div>
