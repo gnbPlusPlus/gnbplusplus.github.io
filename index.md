@@ -165,9 +165,10 @@ layout: home
         <h3 style="text-align:center;">Quick Navigation</h3>
          <ul style="list-style-type:none; margin:0; padding:0;">
            <li><a href="#professionalSelfAssessment" class="button"><span class="linkText">Professional Self-Assessment</span></a></li>
-            <li><a href="#codeReview" class="button"><span class="linkText">Capstone Code Review</span></a></li>
+           <li><a href="#codeReview" class="button"><span class="linkText">Capstone Code Review</span></a></li>
            <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website Demo</span></a></li>
-           <!--li><a href="#gardeningApp" class="button"><span class="linkText">Gardening Mobile App - UI/UX Design</span></a></li-->
+           <li><a href="#gardeningAppDesign" class="button"><span class="linkText">Gardening Mobile App Design</span></a></li>
+           <li><a href="#pulseAppRedesign" class="button"><span class="linkText">Pulse App Page Re-Design</span></a></li>
          </ul>
       </div>
     </div>
@@ -327,8 +328,8 @@ layout: home
         <br>
       </div>
       <!-- Gardening App -->
-      <!--div id="gardeningApp">
-        <h2>Gardening Mobile App UI/UX Design - Lucidchart</h2>
+      <div id="gardeningAppDesign">
+        <h2>Gardening Mobile App Design - Lucidchart</h2>
         <p>Description of project, purpose</p>
         <h3>Low Fidelity Wireframe</h3>
         <p>Work in progress!</p>
@@ -336,8 +337,16 @@ layout: home
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
            <figcaption>Labeled, full color wireframe for unnamed gardening app</figcaption>
-       </figure>
-    </div-->
+        </figure>
+      </div>
+      <div id="pulseAppRedesign">
+        <h2>Pulse App Page Re-Design</h2>
+        <p>Description of project, purpose</p>
+        <figure>
+           <img src="/assets/images/pulse_app_redesign.png" style="max-width:800px">
+           <figcaption>Labeled, full color redesign for</figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </body>
