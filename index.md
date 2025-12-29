@@ -332,6 +332,7 @@ layout: home
       <div id="gardeningAppDesign">
         <h2>Gardening Mobile App Design - Lucidchart</h2>
         <p>For the term-long project in my UI/UX design course (CS-319), I incrementally developed the design for a gardening app based on an overarching user story, app research, two rounds of user interviews, low fidelity wireframes, and feedback gathering sessions. From user interviews came two distinct personas. From those personas came low level wireframes. From those wireframes came feedback from the interviewed users and my classmates. Finally, from everything came the high fidelity wireframe showcased first below. Feel free to continue scrolling past it to view the steps I took along the way.</p>
+        <p>Because the final wireframe is so large, I recommend right-clicking the images and selecting "Open image in new tab" to view them in higher definition and zoom in more easily.</p>
         <h3>Realized Design - High Fidelity Wireframe</h3>
         <figure>
            <img src="/assets/images/gardening_app_wireframe.png" style="max-width:800px">
@@ -359,6 +360,7 @@ layout: home
            <img src="/assets/images/gardening_app_user_qs_2.png" style="max-width:800px">
            <figcaption>Gardening app interview questions & responses (2)</figcaption>
         </figure>
+        <br>
         <h3>Step 2 - Personas</h3>
         <p>From the user interviews emerged two distinct personas, "The Intermediate" and "The Long-Time Casual". I personify them with both a summary and a tagline quote.</p>
         <h4>"The Intermediate" Persona</h4>
