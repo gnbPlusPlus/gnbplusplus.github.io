@@ -370,6 +370,7 @@ layout: home
           <p>Sapphire’s goals for the app include better garden management and furthered plant education. She has struggled with growing certain crops, like onions, in the past and would like to avoid repeating mistakes that lead to plant death. Knowing when to water, fertilize, and rearrange given varying moisture, nitrogen, phosphorus, pH, NPK, temperature, sunlight, and humidity levels would equip her with insights needed to adjust for her plants’ optimal health. Further, having built-in educational materials and estimations of when to water/fertilize next for each plant she grows would inform her, allowing her to differentiate her tactics and increase her skill.</p>
           <p><em>“I want a gardening app that not only does the tedious work of logging all of my plants’ data but also helps make me a better gardener. I value a straightforward design that gives me information as quickly as possible and keeps it all organized to avoid clutter. As someone who looks at screens for a living, I need to be able to set the app to dark mode for less eye strain.”</em></p>
         </div>
+        <br>
         <h4>"The Long-Time Casual" Persona</h4>
         <div style="border:2px solid black; padding:8px;">
           <p>Eloise is a 54-year-old high-school math teacher with a bachelor’s degree and teaching certification. She plans on retiring within the next 15 years and lives with her spouse in a warm, snow-less climate in a house they own. Her children are adults and live in different parts of the country, making Eloise and her spouse “empty nesters”. Collectively, her household makes about $100,000/year.</p>
@@ -377,6 +378,7 @@ layout: home
           <p>Although Eloise has been a casual gardener for many years, and the favorable weather often takes care of her plants for her, she would like to improve her skills and branch out to edible crops like herbs. She wants an app that will teach her about proper moisture ranges for her different plants (and new ones) and remind her when to water only when her plants need moisture. Reminders are a must, thanks to her forgetfulness, and she would like to be able to set a time range for when reminders trigger—that way, she doesn’t get a notification (and promptly forget about it) while she’s at work and can’t respond.</p>
           <p><em>“I love having plants around in my front and back yards because, well, that’s what I’ve always done. It would be nice to grow edible plants that complement my cooking instead of only growing what’s convenient. An app that takes the guesswork out and tells me when my plants need water would be like my own personal helper! I think shades of green, blue, and grey with magenta accents would make it lovely to browse through.”</em></p>
         </div>
+        <br>
         <h3>Step 3 - Low Fidelity Wireframes</h3>
         <figure>
            <img src="/assets/images/gardening_app_low1.png" style="max-width:800px">
