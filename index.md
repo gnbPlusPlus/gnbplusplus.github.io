@@ -419,11 +419,13 @@ layout: home
            <img src="/assets/images/cameraStoreNoHover.png" style="max-width:800px">
            <figcaption>Labeled, full color design for CameraStore homepage (no hover)</figcaption>
         </figure>
+        <br>
         <h3>High Fidelity Wireframe - With Hover</h3>
         <figure>
            <img src="/assets/images/cameraStoreWithHover.png" style="max-width:800px">
            <figcaption>Labeled, full color design for CameraStore homepage (mega menu hover over "Cameras" tab)</figcaption>
         </figure>
+        <br>
       </div>
       <!-- Pulse App Re-Design -->
       <div id="pulseAppRedesign">
