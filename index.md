@@ -190,7 +190,7 @@ layout: home
          <h4>Security</h4>
          <p>Finally, courses like CS-305, CS-320, CS-405, and CS-410 taught me about best practices for secure coding, test-driven development, and how to spot and correct vulnerabilities in code. Key takeaways have been to always use up-to-date software, implement multi-factor authentication as a minimal line of defense, validate all input, employ an unbroken encryption algorithm like SHA-256 where appropriate, and avoid hardcoding sensitive data like user credentials.</p-->
          <h3>The Capstone Showcase</h3>
-         <p>The capstone showcase presented here represents the term-long, self-directed project I completed in my final term during the program. It's meant to represent the completion of my degree.</p>
+         <p>The capstone showcase presented here represents the 8-week, self-directed project I completed in my final term during my degree program. It's meant to represent the completion of my degree.</p>
          <p>The following section introduces the intent of the capstone project, the artifact from my coursework I chose to enhance, and the specific enhancements I did to complete my project. Each enhancement category centers around the same original artifact, eventually culminating in the pet adoption demo website <em>AdoptMePls</em>. My goals were to use web development libraries that hadn’t been covered by my coursework and get more hands-on practice with UI/UX processes, and I achieved both.</p>
        </div>
       <!-- Code Review -->
