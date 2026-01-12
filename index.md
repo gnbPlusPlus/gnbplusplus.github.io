@@ -176,8 +176,8 @@ layout: home
     </div>
     <div class="rightColumn">
        <!-- Professional Self-Assessment -->
-       <!--div id="professionalSelfAssessment">
-          <h2>Professional Self-Assessment</h2>
+       <div id="professionalSelfAssessment">
+          <!--h2>Professional Self-Assessment</h2>
           <h3>Growth from Pre-Program to Now</h3>
           <p>Throughout my computer science program, I watched myself grow in real-time. I went from not knowing how to declare a variable in C++ pre-program to building a full-stack web application (app) with database integration in just over two years. I credit this growth to the variety of projects I completed that built a foundation. It began with learning the basics of Python, then that paved the way for writing Java unit tests, writing user-friendly console programs in C++, training machine learning models with Keras, identifying and fixing security vulnerabilities in software, generating and translating assembly code, and learning best practices for programming. Finally, it ended with this capstone project, which applies my well-rounded foundation toward my aspirational fields: UI/UX design and full-stack development.</p>
          <h3>Skill Building in Specific Areas</h3>
