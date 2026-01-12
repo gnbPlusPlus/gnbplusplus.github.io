@@ -164,10 +164,11 @@ layout: home
       <div class="nav">
         <h3 style="text-align:center;">Quick Navigation</h3>
          <ul style="list-style-type:none; margin:0; padding:0;">
-           <li><a href="#professionalSelfAssessment" class="button"><span class="linkText">Professional Self-Assessment</span></a></li>
+           <!--li><a href="#professionalSelfAssessment" class="button"><span class="linkText">Professional Self-Assessment</span></a></li-->
            <li><a href="#codeReview" class="button"><span class="linkText">Capstone Code Review</span></a></li>
            <li><a href="#petAdoptApp" class="button"><span class="linkText">Pet Adoption Website Demo</span></a></li>
            <li><a href="#gardeningAppDesign" class="button"><span class="linkText">Gardening Mobile App Design</span></a></li>
+           <li><a href="#cameraStoreDesign" class="button"><span class="linkText">E-Commerce Website Homepage Design</span></a></li>
            <li><a href="#pulseAppRedesign" class="button"><span class="linkText">Pulse App Page Re-Design</span></a></li>
            <li><a href="#kivaAppFlipphoneDesign" class="button"><span class="linkText">Kiva LoanHub App Design</span></a></li>
          </ul>
@@ -175,7 +176,7 @@ layout: home
     </div>
     <div class="rightColumn">
        <!-- Professional Self-Assessment -->
-       <div id="professionalSelfAssessment">
+       <!--div id="professionalSelfAssessment">
           <h2>Professional Self-Assessment</h2>
           <h3>Growth from Pre-Program to Now</h3>
           <p>Throughout my computer science program, I watched myself grow in real-time. I went from not knowing how to declare a variable in C++ pre-program to building a full-stack web application (app) with database integration in just over two years. I credit this growth to the variety of projects I completed that built a foundation. It began with learning the basics of Python, then that paved the way for writing Java unit tests, writing user-friendly console programs in C++, training machine learning models with Keras, identifying and fixing security vulnerabilities in software, generating and translating assembly code, and learning best practices for programming. Finally, it ended with this capstone project, which applies my well-rounded foundation toward my aspirational fields: UI/UX design and full-stack development.</p>
@@ -187,7 +188,7 @@ layout: home
          <h4>Software Engineering, Data Structures & Algorithms, and Databases</h4>
          <p>Other 200- and 300-level courses honed my skills in software engineering, data structures and algorithms, and databases. CS-300 taught me the importance of considering runtime complexity when writing a program or implementing an algorithm. CS-340 gave me extensive practice with querying a large MongoDB database, indexing oft-queried fields, and creating aggregation pipelines. In courses like CS-255, CS-300, and CS-410, I’ve learned how to create structures like objects or nodes that can then be reused throughout the program with functions and pointers. CS-360, my course on mobile app architecture, gave me hands-on experience with designing and developing an Android app called <em>Planly</em> that functioned as a simple event scheduler.</p>
          <h4>Security</h4>
-         <p>Finally, courses like CS-305, CS-320, CS-405, and CS-410 taught me about best practices for secure coding, test-driven development, and how to spot and correct vulnerabilities in code. Key takeaways have been to always use up-to-date software, implement multi-factor authentication as a minimal line of defense, validate all input, employ an unbroken encryption algorithm like SHA-256 where appropriate, and avoid hardcoding sensitive data like user credentials.</p>
+         <p>Finally, courses like CS-305, CS-320, CS-405, and CS-410 taught me about best practices for secure coding, test-driven development, and how to spot and correct vulnerabilities in code. Key takeaways have been to always use up-to-date software, implement multi-factor authentication as a minimal line of defense, validate all input, employ an unbroken encryption algorithm like SHA-256 where appropriate, and avoid hardcoding sensitive data like user credentials.</p-->
          <h3>The Capstone Showcase</h3>
          <p>The capstone showcase presented here represents the term-long, self-directed project I completed in my final term during the program. It's meant to represent the completion of my degree.</p>
          <p>The following section introduces the intent of the capstone project, the artifact from my coursework I chose to enhance, and the specific enhancements I did to complete my project. Each enhancement category centers around the same original artifact, eventually culminating in the pet adoption demo website <em>AdoptMePls</em>. My goals were to use web development libraries that hadn’t been covered by my coursework and get more hands-on practice with UI/UX processes, and I achieved both.</p>
@@ -264,7 +265,7 @@ layout: home
             <figcaption>A single pet is fetched for the Pet Detail page based on its ID</figcaption>
          </figure>
          <br>
-        <h4>Narrative</h4>
+        <!--h4>Narrative</h4>
         <p><strong>Description: </strong>The artifact is a functioning React + Flask web app for a pet adoption service that expands greatly upon the original dashboard concept. Through research and user interviews, I found that images were important for pet browsing and eventual adoption, so I changed the dashboard design to be more visual than textual. I also added to the amount and types of filters available than were present in the original project. The first iteration of this web app was created in Mid-November 2025 and the latest iteration was completed in early-December 2025.</p>
         <p><strong>Justification: </strong>This website is worthy of inclusion in my ePortfolio because it shows my experience with React, Flask, Python, JavaScript XML (JSX), HTML, and CSS, all of which are applicable skills toward my goal of working in web development. My cursory work with UI/UX design and research to prep for this project is also relevant to both developer and designer roles. Given the extensive changes that were made from the original dashboard, this website shows both my ability to reimagine an older piece of software with different tools <em>and</em> introduce changes to the software based on user research.</p>
         <p><strong>Reflection: </strong>As I spent time creating and improving this aspect of the project, I learned that (1) creating the skeleton of a full-stack app is relatively easy, but fleshing it out is hard, (2) I really enjoy working with React and CSS, and (3) rem (relative to root element) sizing should be used over px (pixel) sizing to create uniformity across browser screens. A lot of my time was spent adjusting items in CSS and figuring out how best to nest items and use class names to avoid redundant or confusing style rules. I often had to stop development to look through articles or tutorials for syntax and logic questions, especially because this was the largest project I'd made with React.</p>
@@ -273,7 +274,7 @@ layout: home
           <em><li>"Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science."</li>
           <li>"Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts."</li>
           <li>"Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources."</li></em>
-        </ul>
+      </ul-->
         <h3>Data Structures & Algorithms - Merge Sort</h3>
          <p>Sorting pets based on how long they've been waiting for adoption was something that came up during the user interviews. I considered several popular algorithms for this task before settling on merge sort. It doesn't have the best runtime complexity, but it's stable. I wrote the algorithm in a Python file, stored it in the backend, and used both the frontend sort buttons and the backend API call to pass the right information to the function.</p>
          <figure>
@@ -291,7 +292,7 @@ layout: home
             <figcaption>Sort buttons' onSort functions in frontend</figcaption>
         </figure>
         <br>
-        <h4>Narrative</h4>
+        <!--h4>Narrative</h4>
         <p><strong>Description: </strong>With this enhancement, the website gained two working sort buttons that link up to a backend algorithm. The buttons sort the animals from fewest days waiting for adoption (ascending order) to most days waiting for adoption (descending order). This part of the project was a work-in-progress for a few weeks, with development beginning in Mid-November 2025 and continuing with the addition of the database in early December 2025.</p>
         <p><strong>Justification: </strong>The specific enhancements for the algorithms category were as follows: The merge sort algorithm was included in sorting.py (backend), a route was established between the frontend and backend for sorting.py, an arrow function was added to Home.jsx to trigger the backend route, and buttons were added to FilterSection.jsx to send “asc” or “desc” to the sort_pets functions to correlate with the “low to high” and “high to low” labels. Correctly implementing all of this demonstrates my ability to incorporate an appropriate algorithm for a task. Sorting is an oft-needed tool for websites, whether it’s a board game catalogue or pets waiting for adoption, and choosing the right algorithm can make a big difference in performance.</p>
         <p><strong>Reflection: </strong>Writing the algorithm was straightforward, since thorough resources exist for merge sort, so figuring out how to connect everything was the greater challenge. I knew I’d need an @app.route call. From there, I knew I’d need to set up a function in Home, since that’s where the buttons and list are. Finally, I knew I’d need buttons that respond appropriately to being clicked. In other words, I figured it out in pieces, starting from the backend.</p>
@@ -299,7 +300,7 @@ layout: home
         <ul>
           <em><li>"Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices."</li>
           <li>"Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals."</li></em>
-        </ul>
+      </ul-->
         <h3>Databases - MongoDB</h3>
         <p>For this enhancement, I created a MongoDB database of mock pets awaiting adoption. An example document is included, though not every document has the same fields.</p>
         <figure>
@@ -307,14 +308,14 @@ layout: home
             <figcaption>Database document from adoptmepls-database "pets" collection </figcaption>
         </figure>
         <br>
-        <h4>Narrative</h4>
+        <!--h4>Narrative</h4>
         <p><strong>Description: </strong>The database was created in late November 2025 based on the temporary “pets” list I’d created and used in app.py for prior enhancements. As development continued, animal entries were added, including ones with fields unique to their species (e.g., “hasHorns” for goats). Further, entries were given locations with latitude and longitude values from which distance (in miles) is calculated from a static user’s location (hardcoded to Atlanta, GA for now). For readability on the PetDetail page, the field “cityState” is used to represent the lat/lon values in words. Similarly, to create a more realistic depiction of sorting pets based on days waiting for adoption, the “intakeDate” field stores a UTC date from which the number of days is dynamically calculated.</p>
         <p><strong>Justification: </strong>I had used MongoDB in prior courses, but I didn’t have the opportunity to create my own database then. Although the database here is relatively tiny, making my own boosted my confidence, and it now exists as a sandbox to continue building my skills in. Having a working database linked up to a functional full stack app also feels a lot more “real” than using a list in the backend, even if both produce visually similar results in the frontend. This enhancement was mostly about creating and implementing the database, but I also wanted to avoid mistakes of the original artifact by not displaying irrelevant information, such as whether a pet is deceased or not. Instead, both the Home and PetDetail pages organize and display relevant information to the user in a clear way using appropriate headings, sections, and padding.</p>
         <p><strong>Reflection: </strong>Manually creating and updating the database documents was tedious, but once I got past that hurdle and successfully connected MongoDB to the backend, the main challenge was figuring out how to switch everything from using the temporary pets list to using the real database. To avoid redundant code, I created a separate function in app.py for processing each pet as its received. The process_pet function calculates aspects like days waiting for adoption, location in miles, and age range, giving the rest of the app clean variables like daysWaiting, ageRange, and location (rather than latitude/longitude) to work with. Frontend work came in the form of translating the values "yes/no" to "true/false" to clear up discrepancies between filter options and their matching database values.</p>
         <p><strong>Course Outcomes: </strong>With the work done in this enhancement, the following course outcome was met: </p>
         <ul>
           <em><li>"Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals."</li></em>
-        </ul>
+      </ul-->
         <h3>Pytests and Security Measures</h3>
         <p>With the first version of the website complete, my stretch goal for the capstone was to correctly set up, run, and pass a handful of Pytests in the backend. I performed some simple tests using a mock database document to test (1) the API call to retrieve all pets and (2) the sorting algorithm's accuracy in ascending and descending orders. Other security-minded measures include securing my website's URL with HTTPS (thanks to Vercel), obscuring the MongoDB access credentials rather than hardcoding them, and implementing exception catching in the backend.</p>
          <figure>
@@ -407,6 +408,21 @@ layout: home
            <figcaption>Gardening app user interviews (round two)</figcaption>
         </figure>
         <br>
+      </div>
+      <!-- Camera Store Webpage Designs -->
+      <div id="cameraStoreDesign">
+        <h2>E-Commerce Website Homepage Design - Figma</h2>
+        <p>The following wireframes depict the homepage of a fictional e-commerce website that sells cameras. This was created for a job application to fulfill specific criteria, so I did research on similar, existing websites to figure out how I might best arrange everything. I liked the way other websites stacked information vertically, nested options within menus, and gave the user many entries into the same sections (i.e., several links exist throughout the page to take the user to the "Cameras" category). I sought to implement these positive qualities while injecting a bit more color and whimsy into my interpretation. I'm most proud of the gradient that ties the black and white/grey sections together, as well as the mega menu meant to look like a roll of film. This exercise demonstrates my ability to create something fun and practical, even with limited design tools.</p>
+        <h3>High Fidelity Wireframe - No Hover</h3>
+        <figure>
+           <img src="/assets/images/cameraStoreNoHover.png" style="max-width:800px">
+           <figcaption>Labeled, full color design for CameraStore homepage (no hover)</figcaption>
+        </figure>
+        <h3>High Fidelity Wireframe - With Hover</h3>
+        <figure>
+           <img src="/assets/images/cameraStoreWithHover.png" style="max-width:800px">
+           <figcaption>Labeled, full color design for CameraStore homepage (mega menu hover over "Cameras" tab)</figcaption>
+        </figure>
       </div>
       <!-- Pulse App Re-Design -->
       <div id="pulseAppRedesign">
